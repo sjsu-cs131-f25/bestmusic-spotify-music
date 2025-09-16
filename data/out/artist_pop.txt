@@ -1,0 +1,82 @@
+Daddy Yankee,98
+Future,85
+Bad Bunny,81
+Drax Project,79
+ZAYN,78
+ZAYN,77
+Jon Pardi,76
+Steve Miller Band,75
+Miguel,74
+Frank Ocean,73
+Dimitri Vegas & Like Mike,72
+Russ,71
+Foreign Air,70
+Van Halen,69
+Chris Brown,68
+Stefflon Don,67
+Waka Flocka Flame,66
+Chase Rice,65
+Kendrick Lamar,64
+Powerman 5000,63
+Elephante,62
+Jake Bugg,61
+Kari Jobe,60
+Young the Giant,59
+Moneybagg Yo,58
+Broods,57
+Mary Gauthier,56
+Young Money,55
+Avicii,54
+Kevin Garrett,53
+Wild Nothing,52
+Beck,51
+EPMD,50
+The Seige,49
+The Hollies,48
+HoodRich Pablo Juan,47
+Weldon Irvine,46
+The Aces,45
+Lloyd,44
+Salmonella Dub,43
+Prem Joshua,42
+JEN,41
+Tony Rebel,40
+Brad Paisley,39
+Philip Glass,38
+Alan Menken,37
+Chris Lake,36
+The Cold Stares,35
+Ayumi Hamasaki,34
+Jill Scott,33
+Gary Clark Jr.,32
+Kyle Dion,31
+Tarrus Riley,30
+Danny Elfman,29
+Frederic Rzewski,28
+Tigran Hamasyan,27
+Little Feat,26
+SaQi,25
+Denis Leary,24
+Katherine Jenkins,23
+Hello Sleepwalkers,22
+Donny Osmond,21
+Paige O'Hara,20
+Idina Menzel,19
+Richard Pryor,18
+Amarion,17
+Less Than Jake,16
+Margaret Cho,15
+Comedian Bob Marley,14
+Kento Ohgiya,13
+Tim Wilson,12
+Nick Di Paolo,11
+Jules Massenet,10
+Charles Gounod,9
+Naoyuki Onda,7
+Dorothée,6
+Liz Callaway,5
+Gaetano Donizetti,4
+Gioachino Rossini,3
+Debbie Davis,2
+Dorothée,1
+artist_name,popularity
