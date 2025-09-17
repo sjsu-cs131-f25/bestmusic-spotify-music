@@ -5,15 +5,15 @@
 3. From here, download the file as a .zip and unzip it within this data folder.
 
 
-## Data Card
+# Data Card
 
-# File Info
+## File Info
 
-Source: https://www.kaggle.com/datasets/zaheenhamidani/ultimate-spotify-tracks-db/data
-Format: CSV
-Compression: None
-Column count: 18
-Row count: 232725
-Delimiters: Comma-separated
-Headers: Yes, row 1
-Quality notes: 
+Source: https://www.kaggle.com/datasets/zaheenhamidani/ultimate-spotify-tracks-db/data  
+Format: CSV  
+Compression: None  
+Column count: 18  
+Row count: 232725  
+Delimiters: Comma-separated  
+Headers: Yes, row 1  
+Quality notes: Some song names have commas inside causing a grep filter to be needed  
