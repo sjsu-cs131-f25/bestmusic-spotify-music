@@ -1,0 +1,82 @@
+Lil Uzi Vert,86
+Shawn Mendes,83
+Lil Wayne,81
+WALK THE MOON,80
+Train,79
+Cardi B,78
+Ruel,77
+Kehlani,76
+Gucci Mane,75
+Juice WRLD,74
+Selena Gomez,73
+Gerard Way,72
+Scorpions,71
+The Score,70
+Sia,69
+Joe Walsh,68
+Arizona Zervas,67
+T-Pain,66
+G-Eazy,65
+Nico & Vinz,64
+Logic,63
+The National,62
+Robin Thicke,61
+Tank,60
+PARTYNEXTDOOR,59
+Pantera,58
+Demi Lovato,57
+Kanye West,56
+Keith Urban,55
+Michael Giacchino,54
+Nicolas Jaar,53
+Ying Yang Twins,52
+Sum 41,51
+Joe,50
+Phillip Phillips,49
+Phoebe Bridgers,48
+MercyMe,47
+Kid Rock,46
+Blake Shelton,45
+Okey Dokey,44
+Sublime,43
+The Avett Brothers,42
+Verzache,41
+Joanne Brackeen,40
+Jelly Roll,39
+Dirty Heads,38
+Portishead,37
+Weval,36
+Matisyahu,35
+Billy Currington,34
+Lorne Balfe,33
+Plan B,32
+Howard Shore,31
+NGHTMRE,30
+Ryuichi Sakamoto,29
+Zomboy,28
+Ivy Queen,27
+Brujeria,26
+Antonio Vivaldi,25
+Glutamine,24
+Thomas Newman,23
+Eric Lindell,22
+Catch 22,21
+Christopher Titus,20
+Phyllis Dillon,19
+Big D and the Kids Table,18
+Hitorie,17
+Viernes 13,16
+The Littlest Man Band,15
+Al Madrigal,14
+Motohiro Hata,13
+Steve Byrne,12
+Enzo Garcia,11
+Alonzo Bodden,10
+Saverio Mercadante,9
+Randy Newman,8
+Emmanuel Moire,7
+Juice Music,5
+Liz Callaway,4
+Hap Palmer,2
+Francis Lalanne,1
+artist_name,popularity
