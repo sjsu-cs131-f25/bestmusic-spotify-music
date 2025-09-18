@@ -1,0 +1,964 @@
+Script started on 2025-09-15 23:34:25-04:00
+bash-4.4$ cd /mnt/scratch/CS131_jelenag/projects/S[Kteam02_sec2/
+bash-4.4$ ls
+example_files  project2_session.txt  ultimate-spotify-tracks-db
+grantb_week2   run_project2.sh
+bash-4.4$ mkdir -p out/data/samples
+bash-4.4$ (unzip -p ultimate-spotify-tracks-db | head -1 && unzip -p ultimate-spootify-tracks-db | tail -n +2 | shuf -n 1000) > Spotify_Random_1k.csv 2> errors.txxt[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CoSpotify_Random_1k.csv 2> errors.txt[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CuSpotify_Random_1k.csv 2> errors.txt[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CtSpotify_Random_1k.csv 2> errors.txt[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C/Spotify_Random_1k.csv 2> errors.txt[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CdSpotify_Random_1k.csv 2> errors.txt[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CaSpotify_Random_1k.csv 2> errors.txt[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CtSpotify_Random_1k.csv 2> errors.txt[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CaSpotify_Random_1k.csv 2> e[Crors.txt[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C/Spotify_Random_1k.csv 2> errors.txt[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CsSpotify_Random_1k.csv 2> errors.txt[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CaSpotify_Random_1k.csv 2> errors.txt[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CmSpotify_Random_1k.csv [1@2[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CpSpotify_Random_1k.csv[1@ [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[ClSpotify_Random_1k.cs[1@v[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CeSpotify_Random_1k.c[1@s[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CsSpotify_Random_1k.[1@c[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C/Spotify_Random_1k[1@.[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[C[C[C[C[C[C[C[C[Coerrors.txtuerrors.txtterrors.txt/errors.txtderrors.txtaerrors.txtterrors.txtaerrors.txt/errors.txtserrors.txtaerrors.txtmerrors.txtperrors.txtlerrors.txt[Cerrors.txtserrors.txt/errors.txt
+bash-4.4$ cat -[Kout/data/samples/Spotify_Random_1k.csv | head -2
+﻿genre,artist_name,track_name,track_id,popularity,acousticness,danceability,duration_ms,energy,instrumentalness,key,liveness,loudness,mode,speechiness,tempo,time_signature,valence
+Ska,Delroy Wilson,This Life Makes Me Wonder,72u8rUxwEl05zzYhSaMbdp,23,0.59,0.65,197347,0.79,0.0467,F#,0.214,-7.596,Minor,0.0391,86.846,4/4,0.837
+bash-4.4$ grep -vi '".*+[K,.*"' out/data/samples/Spotify_Random_1k.csv > out/data/s amples/Spotify_Random_1k.csv [1P[1P[1P[1P[1P[1P[1@F[1@i[1@l[1@t[1@e[1@r[1@e[1@d
+bash-4.4$ wc -l i[K[K out/data/samples/Spotify_Random_1k.csv 
+1001 out/data/samples/Spotify_Random_1k.csv
+bash-4.4$ wc -l out/data/samples/Spotify_Random_1k.csv [K[K[K[K[K[K[K[K[K[K[K[K[K[KFiltered_1k.csv 
+940 out/data/samples/Spotify_Filtered_1k.csv
+bash-4.4$ cut -d , -f1 out/data/samples/Spotify_Filtered_1k.csv | sort | uniq -c  | sort -nr | tee out/freq_e[Kgenre.txt
+     50 Country
+     49 Anime
+     48 Electronic
+     47 Rap
+     46 Indie
+     46 Hip-Hop
+     44 Reggae
+     41 Rock
+     41 Comedy
+     39 Soul
+     38 Soundtrack
+     38 Ska
+     38 Reggaeton
+     38 Pop
+     38 Blues
+     36 R&B
+     35 Children’s Music
+     33 Jazz
+     32 Alternative
+     31 Folk
+     31 Dance
+     27 Movie
+     26 World
+     17 Children's Music
+     16 Opera
+     13 Classical
+      1 ﻿genre
+      1 A Capella
+bash-4.4$ cut -d , -f1 out/data/samples/Spotify_Filtered_1k.csv | sort | uniq -c  | sort -nr | tee out/freq_genre.txt[1P.txt[1P.txt[1P.txt[1P.txt[1P.txta.txtr.txtt.txti.txts.txtt.txts.txt[C[C[C[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C out/data/samples/Spotify_Filtered_1k.csv | sort | uniq -c |[1P[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C2 out/data/samples/Spotify_Filtered_1k.csv | sort | uniq -c [1@|[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+      5 Hans Zimmer
+      4 The White Stripes
+      4 Nobuo Uematsu
+      4 Juice Music
+      3 Yuki Hayashi
+      3 Trey Songz
+      3 Sublime
+      3 Paul Mooney
+      3 Passion Pit
+      3 Leon Bridges
+      3 Hillsong UNITED
+      3 Gaetano Donizetti
+      3 Eminem
+      3 Danny Elfman
+      3 Daddy Yankee
+      3 Bruce Faulconer
+      2 Young Thug
+      2 Waylon Jennings
+      2 Vance Joy
+      2 UVERworld
+      2 Tycho
+      2 Travis Scott
+      2 Tom Segura
+      2 Thomas Newman
+      2 The Stooges
+      2 The Pussycat Dolls
+      2 The Japanese House
+      2 The Doobie Brothers
+      2 The Countdown Kids
+      2 The 1975
+      2 Tarrus Riley
+      2 Sizzla
+      2 Shawn Mendes
+      2 Sabrina Claudio
+      2 Russell Dickerson
+      2 Randy Newman
+      2 Nine Inch Nails
+      2 New Order
+      2 Mt. Joy
+      2 Moby
+      2 Minnesota
+      2 Mike Posner
+      2 Michael Giacchino
+      2 Me First and the Gimme Gimmes
+      2 Marc Anthony
+      2 Mac Miller
+      2 Lyanno
+      2 Luciano Pavarotti
+      2 Logic
+      2 Linkin Park
+      2 Lil Wayne
+      2 Lil Pump
+      2 Leopold Stokowski
+      2 "Lee ""Scratch"" Perry"
+      2 Leeland
+      2 LCD Soundsystem
+      2 Lana Del Rey
+      2 Ky-Mani Marley
+      2 Kip Moore
+      2 Kimbo Children's Music
+      2 Ken-Y
+      2 Kenny Wayne Shepherd
+      2 Kehlani
+      2 Junkie XL
+      2 Julieta Venegas
+      2 Judy Kuhn
+      2 Jonas Brothers
+      2 Joey Bada$$
+      2 Jeremih
+      2 Janelle Monáe
+      2 Jamsha
+      2 Israel Vibration
+      2 Hollywood Undead
+      2 H.E.R.
+      2 Henri Salvador
+      2 Haruka Shimotsuki
+      2 Gramatik
+      2 Gorillaz
+      2 GoldLink
+      2 Father John Misty
+      2 Etta James
+      2 Emmanuel Moire
+      2 Eir Aoi
+      2 Dr. John
+      2 David Guetta
+      2 Christina Aguilera
+      2 Chris Brown
+      2 Cavetown
+      2 Carlos Mencia
+      2 Capcom Sound Team
+      2 Bryant Myers
+      2 Breaking Benjamin
+      2 Boards of Canada
+      2 Big K.R.I.T.
+      2 Berner
+      2 Bent
+      2 Anjelah Johnson
+      2 Andrea Bocelli
+      2 Alan Menken
+      2 Against Me!
+      2 Adolphe Adam
+      2 Adam Sandler
+      2 88GLAM
+      2 2 Chainz
+      2 12th Planet
+      1 ZZ Ward
+      1 ZZ Top
+      1 Zona Ganjah
+      1 Zion
+      1 Zero 7
+      1 Zamilska
+      1 Zacari
+      1 YUNGBLUD
+      1 Youth Lagoon
+      1 Young the Giant
+      1 YG
+      1 Yella Beezy
+      1 Yasuharu Takanashi
+      1 Yann Tiersen
+      1 yanaginagi
+      1 Yaga & Mackie
+      1 XYLØ
+      1 Wooli
+      1 Wookiefoot
+      1 Wolf Alice
+      1 Wisin
+      1 Wire
+      1 Willie Nelson
+      1 William Singe
+      1 Wild Nothing
+      1 Wilco
+      1 Whiskey Myers
+      1 """Weird Al"" Yankovic"
+      1 Wale
+      1 Wailing Souls
+      1 Vybz Kartel
+      1 Voodoo Glow Skulls
+      1 Virtual Riot
+      1 Vince Staples
+      1 Vickeblanka
+      1 Vertical Worship
+      1 UPPERROOM
+      1 Upchurch
+      1 Uncle Kracker
+      1 UB40
+      1 Two Door Cinema Club
+      1 Twista
+      1 Twenty One Pilots
+      1 Trippie Redd
+      1 Tribal Seeds
+      1 Trevor Rabin
+      1 Trent Reznor and Atticus Ross
+      1 Travis Tritt
+      1 Tracy Lawrence
+      1 Trace Adkins
+      1 Tony Joe White
+      1 Toni Romiti
+      1 Tom's Music Box
+      1 Tom Petty and the Heartbreakers
+      1 TOKiMONSTA
+      1 Toddler Tunes
+      1 Todd Glass
+      1 Tirzah
+      1 Tim Timebomb
+      1 Tim McGraw
+      1 Three Days Grace
+      1 THEY.
+      1 The Wild Reeds
+      1 The Who
+      1 The Wailers
+      1 The Vamps
+      1 The Story So Far
+      1 The Stone Roses
+      1 The Smashing Pumpkins
+      1 The Reverend Peyton's Big Damn Band
+      1 The Pietasters
+      1 The Pharcyde
+      1 The Outfield
+      1 Theo Katzman
+      1 The Neighbourhood
+      1 The Mowgli's
+      1 The Mighty Mighty Bosstones
+      1 The Knife
+      1 The Kingston Trio
+      1 The King's Singers
+      1 The Killers
+      1 The Jerky Boys
+      1 The Jeff Healey Band
+      1 The Jacksons
+      1 The Holdup
+      1 The Hit Crew Kids
+      1 The Head and the Heart
+      1 The Front Bottoms
+      1 Thee Oh Sees
+      1 The English Beat
+      1 The Drifters
+      1 The-Dream
+      1 The Dramatics
+      1 The Dip
+      1 The City of Prague Philharmonic Orchestra
+      1 The Chemical Brothers
+      1 The Cat Empire
+      1 The Cardigans
+      1 The Cab
+      1 The Black Keys
+      1 The Beatles
+      1 The Band
+      1 The Avalanches
+      1 The Animals
+      1 The Allman Brothers Band
+      1 The Aces
+      1 Tessanne Chin
+      1 Tei Shi
+      1 Tech N9ne
+      1 T-Bone Walker
+      1 Tash Sultana
+      1 Takatsugu Muramatsu
+      1 SVDDEN DEATH
+      1 Supreme Jubilees
+      1 Superfly
+      1 Summer Salt
+      1 Sugar Kane Music
+      1 Sudan Archives
+      1 St. Vincent
+      1 Sturgill Simpson
+      1 StoryBots
+      1 SteveSongs
+      1 Steven Wright
+      1 Steven Price
+      1 Steppenwolf
+      1 Stephen Lynch
+      1 Starship
+      1 Stand High Patrol
+      1 Sponge
+      1 SPITZ
+      1 Southern Avenue
+      1 South Central Skankers
+      1 Sorority Noise
+      1 Sora Amamiya
+      1 Sonny Rollins
+      1 Snorri Hallgrímsson
+      1 Snoh Aalegra
+      1 Snavs
+      1 Smino
+      1 Slum Village
+      1 Slipknot
+      1 Sleeping At Last
+      1 Skizzy Mars
+      1 SILENT SIREN
+      1 Shoreline Mafia
+      1 SHINee
+      1 Shinedown
+      1 Shane & Shane
+      1 SEU Worship
+      1 Set It Off
+      1 Seether
+      1 "Secreto ""El Famoso Biberon"""
+      1 ScHoolboy Q
+      1 Scatman Crothers
+      1 Sarah Silverman
+      1 Sarah Reeves
+      1 Santigold
+      1 Sango
+      1 Sanchez
+      1 Sammy & Falsetto
+      1 Ryuichi Sakamoto
+      1 Ryan Stout
+      1 Rx Bandits
+      1 Ruth B.
+      1 Russ
+      1 Rozen
+      1 ROSALÍA
+      1 Roots of Creation
+      1 Ron White
+      1 Roncovacoco
+      1 Robert Schimmel
+      1 Robert Kelly
+      1 Rise Against
+      1 Rick Ross
+      1 Rex Orange County
+      1 Renata Tebaldi
+      1 Renata Scotto
+      1 Rei Yasuda
+      1 Red Store Bums
+      1 Reba McEntire
+      1 Raztlan
+      1 Rascal Flatts
+      1 Randy Houser
+      1 Random Rab
+      1 Raleigh Ritchie
+      1 Raheem DeVaughn
+      1 Rage Against The Machine
+      1 Rae Sremmurd
+      1 Radney Foster
+      1 Radiohead
+      1 Rachel Portman
+      1 Quinn XCII
+      1 Queen
+      1 Quavo
+      1 PVRIS
+      1 Pusho
+      1 Puscifer
+      1 Powder
+      1 Polo Polo
+      1 Pitbull
+      1 Pistol Annies
+      1 Picture This
+      1 Pia Mia
+      1 Phish
+      1 Phil Ochs
+      1 Peter White
+      1 Peter Tosh
+      1 Pepper
+      1 People Under The Stairs
+      1 Peewee Longway
+      1 Pearl Jam
+      1 Pearl Django
+      1 Peach Tree Rascals
+      1 Paul F. Tompkins
+      1 Patrick Sweany
+      1 Passafire
+      1 Paramore
+      1 Panteon Rococo Y Odisea Valenzuela
+      1 Ozuna
+      1 OxT
+      1 Otis Redding
+      1 Oski
+      1 Orchestra Baobab
+      1 One Direction
+      1 Olly Murs
+      1 Oliver Wallace
+      1 ODIE
+      1 Oceanvs Orientalis
+      1 N.W.A.
+      1 Nujabes
+      1 Nothing More
+      1 Norman Connors
+      1 Norah Jones
+      1 Nonpoint
+      1 Noname
+      1 NoMBe
+      1 NOFX
+      1 No Doubt
+      1 Nitty Gritty Dirt Band
+      1 Nirvana
+      1 Nino Rota
+      1 Nightmare
+      1 Nicky Jam
+      1 Ne-Yo
+      1 Nessly
+      1 Neon Indian
+      1 Neko Case
+      1 Ñejo
+      1 Nashville Cast
+      1 Myke Towers
+      1 Mustard Plug
+      1 Musicologo Y Menes
+      1 Music For Little People Choir
+      1 Mr. Vegas
+      1 Mos Def
+      1 Morrissey
+      1 Morgan Wallen
+      1 Morgan Evans
+      1 Moonshine Bandits
+      1 Montgomery Gentry
+      1 Monkey Majik
+      1 Monica
+      1 Momo
+      1 Mogul Music Inc.
+      1 Moderat
+      1 Mitski
+      1 Mirabai Ceiba
+      1 Miky Woodz
+      1 Mike Stud
+      1 Mike Shinoda
+      1 Miguel
+      1 Migos
+      1 Midland
+      1 Michael Schulte
+      1 Michael Franti & Spearhead
+      1 Metro Boomin
+      1 Methrone
+      1 Men Without Hats
+      1 Mel Tormé
+      1 Melanie Martinez
+      1 Meghan Trainor
+      1 Matt and Kim
+      1 Matt Andersen
+      1 Matsushita
+      1 Mat McHugh
+      1 Mating Ritual
+      1 Mary J. Blige
+      1 Marques Houston
+      1 Mark Mothersbaugh
+      1 Mark Mancina
+      1 Mario
+      1 MARINA
+      1 Maretu
+      1 Maranatha! Music
+      1 Manudigital
+      1 Mansionair
+      1 Maninder Buttar
+      1 Manila Killa
+      1 Maneva
+      1 Mandolin Orange
+      1 Maldita Vecindad Y Los Hijos Del 5to. Patio
+      1 Magnate Y Valentino
+      1 MAGIC!
+      1 Madvillain
+      1 Madonna
+      1 Mad Caddies
+      1 Lyves
+      1 Lynyrd Skynyrd
+      1 Lunar Vacation
+      1 Lucy Pearl
+      1 Lucius
+      1 Louis Katz
+      1 Louis C.K.
+      1 Louis Armstrong
+      1 Los Victorios
+      1 Los Pericos
+      1 Los Pelaos
+      1 Los Auténticos Decadentes
+      1 Long Beach Dub Allstars
+      1 LL Cool J
+      1 Liz English
+      1 Little Big Town
+      1 Litany
+      1 Limp Bizkit
+      1 Lil Xan
+      1 Lil' Troy
+      1 Lil Mosey
+      1 Lil Durk
+      1 Lianne La Havas
+      1 Lewis Watson
+      1 Lewis Black
+      1 Léo Delibes
+      1 Lenin Ramírez
+      1 Leftfield
+      1 Left Alone
+      1 Lea Salonga
+      1 Lauv
+      1 LAUREL
+      1 Larry Morey
+      1 Landon Austin
+      1 LaLa Hsu
+      1 Ladytron
+      1 KYLE
+      1 Kristin Chenoweth
+      1 KONGOS
+      1 Kodak Black
+      1 K'NAAN
+      1 Klaus Badelt
+      1 Kiri Te Kanawa
+      1 KILLY
+      1 Killstation
+      1 Kid Rock
+      1 Kid Quill
+      1 Kevin Kiner
+      1 Kevin Hart
+      1 Kevin Gates
+      1 Kensuke Ushio
+      1 Ken Navarro
+      1 Kemba
+      1 Kelsey Lu
+      1 Kelpe
+      1 Keith David
+      1 K CAMP
+      1 KAYTRANADA
+      1 Kathleen Madigan
+      1 Katastro
+      1 Kaskade
+      1 Kasabian
+      1 Kartel Montana
+      1 Kari Faux
+      1 Kanye West
+      1 Kalafina
+      1 Kadhja Bonet
+      1 Kabaka Pyramid
+      1 K.A.A.N.
+      1 Jutes
+      1 Justin Hurwitz
+      1 Justin Bieber
+      1 Justice
+      1 Julie Andrews
+      1 Joshua Redman
+      1 Jorma Kaukonen
+      1 Jonny Lang
+      1 Jon Brion
+      1 Jon Bellion
+      1 John Williams
+      1 John Prine
+      1 John Powell
+      1 Johnnyswim
+      1 John Mayer
+      1 John Coltrane
+      1 Jóhann Jóhannsson
+      1 Johann Adolf Hasse
+      1 Joe Cocker
+      1 Joe
+      1 Jocelyn Pook
+      1 Jin
+      1 Jim Norton
+      1 Jimmy Cliff
+      1 Jimmy Buffett
+      1 Jill Scott
+      1 JID
+      1 J. Holiday
+      1 Jerrod Niemann
+      1 Jelly Roll
+      1 Jeff Foxworthy
+      1 Jefferson Airplane
+      1 Jeff Dye
+      1 Jean Claude Corbel
+      1 Jean-Baptiste Lully
+      1 JB and The Moonshine Band
+      1 Jazzotron
+      1 JAY Z
+      1 Jay Wile
+      1 Jason Boland & The Stragglers
+      1 Jason Aldean
+      1 Jasmine Thompson
+      1 Jamiroquai
+      1 Jamie Foxx
+      1 James Vincent McMorrow
+      1 James Tillman
+      1 James Newton Howard
+      1 James Arthur
+      1 Jake Owen
+      1 Jaden Smith
+      1 Jacob Bryant
+      1 Ivy Queen
+      1 Isaiah Rashad
+      1 INXS
+      1 Inner Circle
+      1 Incubus
+      1 Ikimonogakari
+      1 Iggy Azalea
+      1 I DONT KNOW HOW BUT THEY FOUND ME
+      1 IA
+      1 HUNNY
+      1 Howard Shore
+      1 Hot Chip
+      1 Hoodie Allen
+      1 Hindi Zahra
+      1 Hiatus Kaiyote
+      1 Her's
+      1 Hercules & Love Affair
+      1 Henry Jackman
+      1 Helge Lien Trio
+      1 "Héctor ""El Father"""
+      1 Harrison Storm
+      1 Harold Melvin & The Blue Notes
+      1 Harold Budd
+      1 half•alive
+      1 Halestorm
+      1 HÆLOS
+      1 Guts
+      1 Gusi
+      1 Guillaume Dufay
+      1 Gucci Mane
+      1 GTA
+      1 Groundation
+      1 Grizzly Bear
+      1 Grimes
+      1 Greg Proops
+      1 Greg Laswell
+      1 Green Valley
+      1 Granger Smith
+      1 "Gotay ""El Autentiko"""
+      1 Gone West
+      1 Godsmack
+      1 Glutamine
+      1 Glades
+      1 Giuseppe Verdi
+      1 Gipsy Kings
+      1 Giovanni Pierluigi da Palestrina
+      1 Gioachino Rossini
+      1 Gillian Welch
+      1 Ghastly
+      1 Georgs Pelēcis
+      1 George Strait
+      1 George Jones
+      1 George Carlin
+      1 Generationals
+      1 GARNiDELiA
+      1 Garnett Silk
+      1 Garnet Mimms & The Enchanters
+      1 Ganja White Night
+      1 "Galante ""El Emperador"""
+      1 fripSide
+      1 Freya Ridings
+      1 Freddie McGregor
+      1 Franz Ferdinand
+      1 Frank Ocean
+      1 Frankie Valli & The Four Seasons
+      1 Foster The People
+      1 Fortunate Youth
+      1 for KING & COUNTRY
+      1 Foals
+      1 Flying Lotus
+      1 flumpool
+      1 Flosstradamus
+      1 Flo Rida
+      1 flor
+      1 Fleet Foxes
+      1 FKA twigs
+      1 Five For Fighting
+      1 Fetty Wap
+      1 Felipe Peláez
+      1 Felipe Esparza
+      1 Fantastic Negrito
+      1 Famous Dex
+      1 Falcom Sound Team jdk
+      1 Face To Face
+      1 Everclear
+      1 Eugene McDaniels
+      1 Erik Satie
+      1 Enzo Garcia
+      1 Emmit Fenn
+      1 Elvis Depressedly
+      1 El Natty Combo
+      1 Elle King
+      1 Ella Fitzgerald
+      1 Eli Young Band
+      1 Elephant Man
+      1 Earl Sweatshirt
+      1 Earl Hooker
+      1 Eagles
+      1 Dwarves
+      1 dvsn
+      1 Dreezy
+      1 Dream Theater
+      1 Drake
+      1 DragonForce
+      1 Dounia
+      1 Dorothée
+      1 Don Omar
+      1 Dole
+      1 D.L. Hughley
+      1 DJ Shadow
+      1 DJ Koze
+      1 DJ Khaled
+      1 Dizzy Gillespie
+      1 Dixie Chicks
+      1 Dirt Monkey
+      1 Dion Timmer
+      1 Dinah Washington
+      1 Dick Van Dyke
+      1 Diamond Thug
+      1 Desmond Dekker
+      1 Derek Minor
+      1 Denzel Curry
+      1 Demi Lovato
+      1 Deltron 3030
+      1 Delroy Wilson
+      1 Deftones
+      1 Deerhunter
+      1 Death Cab for Cutie
+      1 Dead Kennedys
+      1 David Cross
+      1 David Bowie
+      1 Dave Matthews Band
+      1 Darell
+      1 DaniLeigh
+      1 Danielle Bradbery
+      1 D'Angelo
+      1 Dana Gould
+      1 Damu The Fudgemunk
+      1 Damien Jurado
+      1 Dalmata
+      1 Cypress Hill
+      1 Current Joys
+      1 Crazy P
+      1 Craig David
+      1 Cousin Stizz
+      1 Counting Crows
+      1 Cosculluela
+      1 Cortex
+      1 Corinne Bailey Rae
+      1 Confederate Railroad
+      1 Common
+      1 Cocteau Twins
+      1 Claude Debussy
+      1 Citipointe Live
+      1 Cigarettes After Sex
+      1 Ciara
+      1 Chris Stapleton
+      1 Chris LeDoux
+      1 Chorus
+      1 Childish Gambino
+      1 Cherry Poppin' Daddies
+      1 Chase & Status
+      1 Charles Gounod
+      1 Chancha Via Circuito
+      1 Chad Daniels
+      1 Céline Languedoc
+      1 Casting Crowns
+      1 Cassandra Wilson
+      1 Cash Cash
+      1 Carnage
+      1 Caribou
+      1 Caravan Palace
+      1 Captain & Tennille
+      1 Cage The Elephant
+      1 Cafe Jazz Deluxe
+      1 Buju Banton
+      1 Bugseed
+      1 Buddy Guy
+      1 Buddy Brown
+      1 Buck Owens
+      1 Buckcherry
+      1 Bryson Tiller
+      1 Bryn Terfel
+      1 Bruno Pelletier
+      1 Bruce Springsteen
+      1 Brooklyn Funk Essentials
+      1 Broods
+      1 Broken Bells
+      1 BROCKHAMPTON
+      1 Brian Simpson
+      1 Brian Eno
+      1 Brett Eldredge
+      1 Boyce Avenue
+      1 Boubacar Traoré
+      1 Botnek
+      1 BØRNS
+      1 Borgore
+      1 Bo Phillips
+      1 Bonobo
+      1 Bomb the Music Industry!
+      1 Bo Burnham
+      1 Bobby Darin
+      1 B.o.B
+      1 BluntOne
+      1 Blues Traveler
+      1 Blues Saraceno
+      1 BLUE ENCOUNT
+      1 Blood Orange
+      1 Blind Melon
+      1 Black Stone Cherry
+      1 Black Lips
+      1 Blackfoot Gypsies
+      1 Black Flag
+      1 blackbear
+      1 Billy Raffoul
+      1 Billy Currington
+      1 Bill Hicks
+      1 Bill Frisell
+      1 Big Wild
+      1 Big D and the Kids Table
+      1 Bernard Minet
+      1 Beres Hammond
+      1 Bear McCreary
+      1 Bayronfire
+      1 Bastille
+      1 Bassnectar
+      1 Barns Courtney
+      1 balloon
+      1 Bad Bunny
+      1 Babyface
+      1 ayaka
+      1 Axel Boy
+      1 AWOLNATION
+      1 Avenged Sevenfold
+      1 Avant
+      1 Autograf
+      1 Austin Wintory
+      1 Aun J-Classic Orchestra
+      1 Atreyu
+      1 Atlas Genius
+      1 Atlantic Starr
+      1 ASIAN KUNG-FU GENERATION
+      1 Asaiah Ziv
+      1 artist_name
+      1 Artie Lange
+      1 Armors
+      1 Arizona Zervas
+      1 Ari Lennox
+      1 Archy Marshall
+      1 Archive
+      1 Antônio Carlos Jobim
+      1 Anonimus
+      1 Anomalie
+      1 Anne Dudley
+      1 Anna Of The North
+      1 Animal Collective
+      1 Andy Timmons
+      1 Andy Grammer
+      1 Andrew McMahon in the Wilderness
+      1 Andrew Applepie
+      1 Andra Day
+      1 Anderson East
+      1 Ana Popovic
+      1 America
+      1 Alton Ellis
+      1 alt-J
+      1 Almighty
+      1 Alicia Keys
+      1 Alice Coltrane
+      1 Al Green
+      1 Alextbh
+      1 [ALEXANDROS]
+      1 Alexandre Desplat
+      1 Alejandro Fernandez
+      1 Air
+      1 A$AP Mob
+      1 6LACK
+      1 5 Seconds of Summer
+      1 2Pac
+      1 1K Phew
+      1 10 Years
+      1 070 Shake
+      1 04 Limited Sazabys
+bash-4.4$ cut -d , -f2 out/data/samples/Spotify_Filtered_1k.csv | sort | uniq -c  | sort -nr | tee out/freq_artists.txt[1P.txt[1P.txt[1P.txt[1P.txt[1P.txt[1P.txt[1P.txt[1P.txt[1P.txt[1P.txt[1P.txt[1P.txt[A[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[Ccut -d , -f3,16 out/data/samples/Spotify_Filtered_1k.csv | tail -n +2  | sort -5,[K[Kt, -k2 -nr | head -10 | tee /[Kout/top_tempo.txt
+Bad Kids,204.225
+Enjoy Yourself,204.178
+About You,204.002
+Remember My Name,203.972
+So Much for Love,203.915
+Drinkin' Problem (Brindemos),203.847
+Puttin' on the Ritz,201.926
+I'm A Thug Pt. 2,201.911
+Bad,200.079
+Inside The Winter Storm,199.908
+bash-4.4$ cut -d , -f3,16 out/data/samples/Spotify_Filtered_1k.csv | tail -n +2 || sort -t, -k2 -nr | head -10 | tee out/top_tempo.txt[A[K
+[K[A[C[C[C[C[C[C[C[C[C[Ccut -d -f2,5 out/data/samples/Spotify_Filtered_1k.csv | sort -t [K, -k2 - nru | tee ot[Kut/ari[Ktist_pop.txt
+cut: the delimiter must be a single character
+Try 'cut --help' for more information.
+bash-4.4$ cut -d -f2,5 out/data/samples/Spotify_Filtered_1k.csv | sort -t, -k2 -nnru | tee out/artist_pop.txt[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C,-f2,5 out/data/samples/Spotify_Filtered_1k.csv | sort -t, -k2 -[1@n[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C -f2,5 out/data/samples/Spotify_Filtered_1k.csv | sort -t, -k2 [1@-[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+Kehlani,85
+Lil Mosey,83
+Marc Anthony,82
+blackbear,80
+Bryant Myers,79
+Alejandro Fernandez,76
+Metro Boomin,75
+Freya Ridings,74
+The Doobie Brothers,73
+The Cardigans,72
+Craig David,71
+MARINA,70
+Randy Houser,69
+Jonas Brothers,68
+Cavetown,67
+Eminem,66
+flor,65
+Eminem,64
+David Guetta,63
+Drake,62
+KILLY,61
+Joey Bada$$,60
+for KING & COUNTRY,59
+Landon Austin,58
+Bastille,57
+Kaskade,56
+Nine Inch Nails,55
+Atlas Genius,54
+Common,53
+Gucci Mane,52
+Granger Smith,51
+Mat McHugh,50
+Counting Crows,49
+Ken Navarro,48
+Sublime,47
+Danielle Bradbery,46
+Bo Burnham,45
+Tash Sultana,44
+Dounia,43
+Kip Moore,42
+Earl Hooker,41
+Snavs,40
+Ghastly,39
+Hillsong UNITED,38
+Zero 7,37
+Desmond Dekker,36
+Brian Eno,35
+The Avalanches,34
+Katastro,33
+Ryuichi Sakamoto,32
+yanaginagi,31
+Trevor Rabin,30
+Mustard Plug,29
+Thomas Newman,28
+Antônio Carlos Jobim,27
+Nobuo Uematsu,26
+Haruka Shimotsuki,25
+Jin,24
+Delroy Wilson,23
+Against Me!,22
+South Central Skankers,21
+UVERworld,20
+Cherry Poppin' Daddies,19
+Emmanuel Moire,18
+Artie Lange,17
+Eir Aoi,16
+The English Beat,15
+Ryan Stout,14
+Paul Mooney,13
+Greg Proops,12
+Adam Sandler,11
+Bruce Faulconer,10
+Alan Menken,9
+Yasuharu Takanashi,8
+Adolphe Adam,7
+Kiri Te Kanawa,6
+Bugseed,5
+Gioachino Rossini,4
+Music For Little People Choir,3
+The Countdown Kids,2
+Juice Music,1
+artist_name,popularity
+bash-4.4$ ls[K[Kexit
+
+Script done on 2025-09-15 23:40:59-04:00
