@@ -1,0 +1,538 @@
+artist	track_count	mean_popularity	median_popularity	std_popularity	min_popularity	max_popularity
+Drake	22	60.36	63.0	7.66	47	70
+Chris Brown	19	60.58	61.0	19.09	21	85
+Brent Faiyaz	15	57.87	58.0	6.33	43	62
+G-Eazy	15	58.73	62.0	4.2	54	63
+Rainbow Kitten Surprise	15	61.0	59.0	2.93	59	65
+Frank Ocean	14	74.0	74.0	1.04	73	75
+Future	14	66.43	62.5	12.28	51	85
+Beyoncé	12	61.5	60.5	3.5	58	67
+Dan Auerbach	10	50.0	48.0	5.42	44	56
+The Avett Brothers	10	48.5	48.5	0.53	48	49
+Nao	10	54.0	54.0	4.22	50	58
+Kimbo Children's Music	10	6.6	0.5	14.21	0	43
+Meek Mill	9	56.56	61.0	8.99	43	65
+Mariah Carey	9	62.89	66.0	5.18	57	68
+The Doobie Brothers	9	56.22	61.0	7.03	49	66
+Little Mix	9	41.67	34.0	13.29	32	62
+The Weeknd	9	59.33	62.0	5.57	52	64
+Young the Giant	9	57.22	59.0	2.11	55	59
+Kendrick Lamar	9	64.44	64.0	7.65	57	74
+Lil Wayne	9	69.67	70.0	4.77	64	75
+Death Cab for Cutie	8	61.0	61.0	1.07	60	62
+System Of A Down	8	53.75	55.5	7.19	44	60
+Daddy Yankee	8	73.25	69.0	23.26	41	98
+Noname	8	25.5	0.0	35.19	0	68
+Earl Sweatshirt	8	51.0	51.0	4.28	47	55
+Thousand Foot Krutch	8	63.5	63.5	4.81	59	68
+Eminem	8	61.25	62.0	2.05	58	63
+Britney Spears	8	66.0	66.0	4.28	62	70
+Howard Shore	8	32.0	32.0	6.46	24	40
+Ne-Yo	8	60.0	60.0	1.07	59	61
+Sturgill Simpson	8	53.0	53.0	2.14	51	55
+Rage Against The Machine	8	58.75	67.0	11.39	45	67
+Sade	8	56.25	56.0	9.54	46	67
+Ryuichi Sakamoto	8	27.0	27.0	2.14	25	29
+Talking Heads	7	52.86	55.0	2.67	50	55
+Surfaces	7	53.86	53.0	9.42	43	66
+Waka Flocka Flame	7	57.43	52.0	8.06	50	66
+Nick Jonas	7	52.71	61.0	10.42	39	61
+LCD Soundsystem	7	43.86	43.0	1.57	43	47
+Jill Scott	7	48.43	49.0	7.09	33	53
+SiR	7	54.71	53.0	4.54	53	65
+Atmosphere	7	18.43	0.0	22.98	0	43
+Florence + The Machine	7	51.29	56.0	5.88	45	56
+Jóhann Jóhannsson	6	32.33	32.0	0.52	32	33
+The Shins	6	71.0	71.0	0.0	71	71
+Theory of a Deadman	6	52.67	56.0	5.16	46	56
+Slightly Stoopid	6	42.5	36.0	17.93	27	71
+Blur	6	62.0	62.0	0.0	62	62
+Etta James	6	43.5	47.0	12.65	18	51
+Pitbull	6	66.5	76.0	14.8	45	76
+Linkin Park	6	60.5	62.5	8.5	51	68
+Philip Glass	6	38.0	38.0	0.0	38	38
+Florida Georgia Line	6	47.0	47.0	28.48	21	73
+Halsey	6	45.0	45.0	1.1	44	46
+A Tribe Called Quest	6	58.0	58.0	0.0	58	58
+Nobuo Uematsu	6	33.83	33.0	12.86	18	50
+Kelly Clarkson	6	61.33	67.0	8.78	50	67
+Papa Roach	6	67.83	70.0	5.31	57	70
+Taylor Swift	6	49.0	55.0	11.7	34	58
+Nina Simone	6	43.0	43.0	0.0	43	43
+Jaden Smith	6	35.5	35.5	3.83	32	39
+Of Monsters and Men	6	50.0	50.0	4.38	46	54
+Janelle Monáe	6	57.0	57.0	0.0	57	57
+Chris Young	5	61.0	60.0	11.47	43	71
+Kid Ink	5	65.0	65.0	0.0	65	65
+Children Songs Company	5	16.8	0.0	23.87	0	51
+Timeflies	5	46.8	58.0	15.34	30	58
+Don Omar	5	47.8	53.0	20.71	26	67
+Mac Ayres	5	52.2	49.0	7.16	49	65
+TobyMac	5	58.8	62.0	7.16	46	62
+Tori Kelly	5	55.0	55.0	0.0	55	55
+Justin Timberlake	5	64.2	75.0	14.79	48	75
+Ciara	5	57.0	57.0	0.0	57	57
+Trey Songz	5	49.0	49.0	0.0	49	49
+Kari Jobe	5	54.2	60.0	12.97	31	60
+Cultura Profética	5	61.0	65.0	5.48	55	65
+Electric Guest	5	46.0	46.0	0.0	46	46
+Quinn XCII	5	54.6	67.0	16.98	36	67
+Radiohead	5	56.4	59.0	5.81	46	59
+PnB Rock	5	68.8	72.0	4.38	64	72
+Erykah Badu	5	56.4	61.0	10.29	38	61
+flor	5	50.2	51.0	1.1	49	51
+RKCB	5	53.0	53.0	0.0	53	53
+Beastie Boys	5	66.0	66.0	0.0	66	66
+What So Not	5	39.0	29.0	24.16	18	65
+Ravyn Lenae	5	60.0	60.0	0.0	60	60
+Sinbad	5	31.0	24.0	24.69	11	73
+Nickelback	5	61.4	66.0	10.29	43	66
+The Lumineers	5	65.2	71.0	12.97	42	71
+GoldLink	5	52.0	52.0	0.0	52	52
+Wisin & Yandel	5	45.8	39.0	15.96	32	63
+The Neighbourhood	5	44.6	43.0	2.19	43	47
+BADBADNOTGOOD	5	53.0	58.0	6.93	44	58
+Imagine Dragons	5	36.2	47.0	26.37	0	64
+Yuki Hayashi	5	38.2	24.0	23.84	15	64
+Ramin Djawadi	5	36.6	27.0	18.34	22	66
+Wet	5	54.0	54.0	0.0	54	54
+Hillsong Worship	4	30.0	27.5	6.88	25	40
+Hillsong UNITED	4	43.25	43.5	8.96	35	51
+Kenny Chesney	4	31.25	30.0	12.37	18	47
+Red Hot Chili Peppers	4	56.25	59.0	5.5	48	59
+Jake Owen	4	58.0	58.0	6.93	52	64
+Kevin Gates	4	50.5	50.5	2.89	48	53
+Keyshia Cole	4	58.0	58.0	0.0	58	58
+ZAYN	4	77.5	77.5	0.58	77	78
+Iration	4	48.5	49.0	4.12	43	53
+Zero 7	4	40.5	40.5	2.89	38	43
+Julie Andrews	4	29.5	25.5	12.12	20	47
+Kehlani	4	53.0	53.0	0.0	53	53
+Janet Jackson	4	28.0	28.0	0.0	28	28
+The Strokes	4	66.0	66.0	0.0	66	66
+Jennifer Lopez	4	65.0	65.0	0.0	65	65
+The Front Bottoms	4	60.0	60.0	0.0	60	60
+Grouplove	4	61.0	61.0	0.0	61	61
+The Afters	4	49.0	49.0	0.0	49	49
+Gorillaz	4	35.0	35.0	0.0	35	35
+The Countdown Kids	4	24.25	19.0	24.85	0	59
+The Chainsmokers	4	60.0	60.0	1.15	59	61
+Flo Rida	4	42.0	42.0	0.0	42	42
+Joji	4	18.0	18.0	0.0	18	18
+Giacomo Puccini	4	30.25	32.5	18.55	10	46
+The Band CAMINO	4	58.0	58.0	0.0	58	58
+Foals	4	55.0	55.0	0.0	55	55
+Jason Isbell and the 400 Unit	4	50.0	50.0	0.0	50	50
+August Alsina	4	43.25	45.5	30.25	11	71
+Kings of Leon	4	60.0	60.0	1.15	59	61
+Chris Tomlin	4	43.0	43.0	0.0	43	43
+Alton Ellis	4	42.5	42.5	0.58	42	43
+Snoh Aalegra	4	48.5	48.5	6.35	43	54
+Casting Crowns	4	43.0	43.0	0.0	43	43
+Carrie Underwood	4	50.5	50.5	2.89	48	53
+Calvin Harris	4	40.5	40.5	46.77	0	81
+Slushii	4	47.5	53.5	17.94	22	61
+Miguel	4	74.0	74.0	0.0	74	74
+Breaking Benjamin	4	65.0	65.0	0.0	65	65
+Moneybagg Yo	4	29.0	29.0	33.49	0	58
+Bonobo	4	32.5	32.5	4.04	29	36
+NEEDTOBREATHE	4	50.0	50.0	0.0	50	50
+Vince Staples	4	45.5	43.0	5.0	43	53
+NF	4	48.0	48.0	4.62	44	52
+Big Sean	4	60.0	60.0	0.0	60	60
+Nelly	4	52.0	52.0	0.0	52	52
+Ben Howard	4	51.75	57.0	10.5	36	57
+Shinedown	4	43.0	43.0	0.0	43	43
+Beck	4	51.0	51.0	0.0	51	51
+Beach House	4	48.0	48.0	3.46	45	51
+Novo Amor	4	51.5	51.5	0.58	51	52
+BANKS	4	65.0	65.0	0.0	65	65
+Steve Miller Band	4	66.0	75.0	18.0	39	75
+MercyMe	4	62.0	62.0	0.0	62	62
+Curren$y	4	51.0	51.0	0.0	51	51
+MARINA	4	55.0	55.0	0.0	55	55
+Cody Johnson	4	45.75	47.0	4.72	39	50
+Queens of the Stone Age	4	43.0	45.0	4.0	37	45
+Dixie Chicks	4	60.75	62.0	2.5	57	62
+Disturbed	4	58.0	58.0	4.62	54	62
+Leeland	4	55.0	55.0	0.0	55	55
+Kenny G	3	23.0	20.0	24.64	0	49
+Lil Baby	3	68.0	68.0	0.0	68	68
+Jeremy Camp	3	43.67	49.0	9.24	33	49
+NOFX	3	32.0	33.0	8.54	23	40
+Pearl Jam	3	58.0	58.0	0.0	58	58
+T.I.	3	53.0	53.0	0.0	53	53
+MY FIRST STORY	3	59.0	66.0	13.89	43	68
+Riders In The Sky	3	26.33	25.0	24.03	3	51
+NAV	3	58.0	58.0	0.0	58	58
+Korn	3	51.0	51.0	0.0	51	51
+Kodak Black	3	72.0	72.0	0.0	72	72
+One Direction	3	63.0	73.0	17.32	43	73
+Jacquees	3	54.0	54.0	0.0	54	54
+PARTYNEXTDOOR	3	33.0	33.0	0.0	33	33
+The Hit Crew Kids	3	40.33	42.0	19.55	20	59
+21 Savage	3	74.0	74.0	0.0	74	74
+Playboi Carti	3	67.0	67.0	0.0	67	67
+Mustard Plug	3	26.0	17.0	31.48	0	61
+Juice Music	3	28.67	20.0	15.01	20	46
+Rae Sremmurd	3	78.0	78.0	0.0	78	78
+Kacey Musgraves	3	42.0	42.0	0.0	42	42
+The Holdup	3	47.0	61.0	25.12	18	62
+Meghan Trainor	3	64.67	65.0	0.58	64	65
+Jules Massenet	3	24.0	31.0	12.12	10	31
+The Aggrolites	3	66.67	66.0	5.03	62	72
+Tenacious D	3	60.0	60.0	0.0	60	60
+Mick Jenkins	3	51.0	51.0	0.0	51	51
+Run The Jewels	3	49.0	49.0	0.0	49	49
+Jordan Rakei	3	72.0	72.0	0.0	72	72
+Jonny Greenwood	3	25.0	25.0	0.0	25	25
+Russ	3	71.0	71.0	0.0	71	71
+Kathleen Madigan	3	32.67	26.0	16.07	21	51
+Mike Stud	3	52.0	52.0	0.0	52	52
+Susan Egan	3	37.33	43.0	33.86	1	68
+Moby	3	35.33	27.0	17.1	24	55
+Reykon	3	42.0	39.0	6.08	38	49
+JID	3	63.0	63.0	0.0	63	63
+J. Cole	3	65.0	65.0	0.0	65	65
+Eric Clapton	3	19.67	16.0	6.35	16	27
+Dustin O'Halloran	3	36.33	34.0	5.86	32	43
+Tierra Whack	3	48.0	48.0	0.0	48	48
+Denzel Curry	3	64.0	64.0	0.0	64	64
+Chris Webby	3	53.0	53.0	0.0	53	53
+Chase Rice	3	65.0	65.0	0.0	65	65
+Tyler Bates	3	48.67	58.0	18.82	27	61
+COIN	3	57.0	57.0	0.0	57	57
+Broods	3	57.0	57.0	0.0	57	57
+Bon Iver	3	59.0	59.0	0.0	59	59
+VHS Collection	3	49.0	49.0	0.0	49	49
+Weezer	3	54.0	54.0	0.0	54	54
+Bethel Music	3	55.0	59.0	8.72	45	61
+Beirut	3	62.0	62.0	0.0	62	62
+Badflower	3	49.0	49.0	0.0	49	49
+Wisin	3	55.0	63.0	13.86	39	63
+BTS	3	52.67	50.0	11.24	43	65
+Avicii	3	58.67	61.0	4.04	54	61
+Aretha Franklin	3	53.0	53.0	0.0	53	53
+YG	3	65.0	65.0	0.0	65	65
+Alan Menken	3	33.0	37.0	6.93	25	37
+Alan Jackson	3	43.0	43.0	23.0	20	66
+A Perfect Circle	3	18.0	18.0	0.0	18	18
+dvsn	3	53.0	53.0	0.0	53	53
+311	3	36.0	30.0	14.93	25	53
+2Pac	3	67.0	67.0	0.0	67	67
+Three Days Grace	3	43.0	43.0	0.0	43	43
+Rex Orange County	3	61.0	61.0	0.0	61	61
+Hans Zimmer	3	32.0	28.0	9.64	25	43
+Gioachino Rossini	3	8.67	7.0	6.66	3	16
+H.E.R.	3	61.0	61.0	0.0	61	61
+George Carlin	3	23.0	24.0	11.53	11	34
+Nicki Minaj	2	43.0	43.0	0.0	43	43
+Nightmares On Wax	2	54.0	54.0	0.0	54	54
+Beats Antique	2	47.0	47.0	0.0	47	47
+Bebe Rexha	2	70.0	70.0	0.0	70	70
+Why Don't We	2	64.0	64.0	0.0	64	64
+The Movement	2	36.5	36.5	9.19	30	43
+The National	2	18.0	18.0	0.0	18	18
+Big D and the Kids Table	2	37.5	37.5	24.75	20	55
+Shoreline Mafia	2	54.0	54.0	0.0	54	54
+Bob Dylan	2	46.0	46.0	0.0	46	46
+Bonnie Raitt	2	40.0	40.0	0.0	40	40
+Music For Little People Choir	2	0.5	0.5	0.71	0	1
+Morcheeba	2	44.0	44.0	0.0	44	44
+Bruno Mars	2	51.0	51.0	0.0	51	51
+Brad Paisley	2	43.0	43.0	5.66	39	47
+Brandy	2	51.0	51.0	0.0	51	51
+Mitski	2	41.0	41.0	0.0	41	41
+Miley Cyrus	2	48.0	48.0	0.0	48	48
+Joey Bada$$	2	46.0	46.0	0.0	46	46
+Michael W. Smith	2	54.5	54.5	13.44	45	64
+Bruce Broughton	2	23.0	23.0	0.0	23	23
+Joyner Lucas	2	53.0	53.0	0.0	53	53
+Godsmack	2	66.0	66.0	0.0	66	66
+Me First and the Gimme Gimmes	2	44.5	44.5	17.68	32	57
+Troye Sivan	2	47.0	47.0	2.83	45	49
+Matt Maher	2	34.5	34.5	20.51	20	49
+Solange	2	49.0	49.0	0.0	49	49
+Star Cast	2	37.5	37.5	6.36	33	42
+John Mark McMillan	2	60.0	60.0	1.41	59	61
+Gustavo Santaolalla	2	43.0	43.0	0.0	43	43
+Jelly Roll	2	18.0	18.0	0.0	18	18
+Norah Jones	2	67.0	67.0	0.0	67	67
+The Killers	2	36.0	36.0	0.0	36	36
+Reel Big Fish	2	43.5	43.5	26.16	25	62
+Interpol	2	58.0	58.0	8.49	52	64
+Jacques Offenbach	2	29.0	29.0	0.0	29	29
+Randy Newman	2	16.0	16.0	7.07	11	21
+Richard Pryor	2	17.0	17.0	1.41	16	18
+Hopsin	2	33.0	33.0	0.0	33	33
+A$AP Rocky	2	60.0	60.0	0.0	60	60
+Zac Brown Band	2	55.0	55.0	0.0	55	55
+Aimer	2	60.0	60.0	1.41	59	61
+James Taylor	2	46.5	46.5	2.12	45	48
+Preschool Kids	2	31.0	31.0	15.56	20	42
+Post Malone	2	36.0	36.0	0.0	36	36
+Portugal. The Man	2	46.0	46.0	0.0	46	46
+Alexis y Fido	2	67.0	67.0	0.0	67	67
+Alicia Keys	2	59.0	59.0	0.0	59	59
+Phish	2	44.5	44.5	27.58	25	64
+Xavier Omär	2	62.0	62.0	0.0	62	62
+XXXTENTACION	2	43.0	43.0	0.0	43	43
+Aphex Twin	2	32.0	32.0	0.0	32	32
+The Growlers	2	66.0	66.0	0.0	66	66
+Ariana Grande	2	49.0	49.0	0.0	49	49
+Sara Bareilles	2	50.0	50.0	0.0	50	50
+Avenged Sevenfold	2	43.0	43.0	0.0	43	43
+Panic! At The Disco	2	46.0	46.0	0.0	46	46
+Ayumi Hamasaki	2	36.5	36.5	3.54	34	39
+Seven Lions	2	43.0	43.0	7.07	38	48
+Shakey Graves	2	31.0	31.0	0.0	31	31
+Shane & Shane	2	42.5	42.5	17.68	30	55
+BROCKHAMPTON	2	53.0	53.0	0.0	53	53
+Chorus	2	0.0	0.0	0.0	0	0
+Stevie Ray Vaughan	2	48.5	48.5	26.16	30	67
+DROELOE	2	41.0	41.0	0.0	41	41
+Tech N9ne	2	18.0	18.0	0.0	18	18
+Five Finger Death Punch	2	57.0	57.0	0.0	57	57
+Fetty Wap	2	68.0	68.0	0.0	68	68
+Kanye West	2	46.0	46.0	0.0	46	46
+Lil Yachty	2	65.0	65.0	0.0	65	65
+Danny Elfman	2	27.0	27.0	2.83	25	29
+Leon Bridges	2	43.0	43.0	0.0	43	43
+Lana Del Rey	2	53.0	53.0	0.0	53	53
+Tom Misch	2	55.5	55.5	17.68	43	68
+FLOW	2	39.5	39.5	7.78	34	45
+Dierks Bentley	2	44.0	44.0	1.41	43	45
+Mac Miller	2	33.0	33.0	1.41	32	34
+Tedeschi Trucks Band	2	43.0	43.0	29.7	22	64
+Sylvan Esso	2	50.0	50.0	0.0	50	50
+Dirty Heads	2	53.5	53.5	12.02	45	62
+Dorothée	2	3.5	3.5	3.54	1	6
+DragonForce	2	29.5	29.5	7.78	24	35
+Jon Hopkins	2	52.0	52.0	0.0	52	52
+The Black Keys	2	42.5	42.5	7.78	37	48
+Eric Bellinger	2	46.0	46.0	0.0	46	46
+The Revivalists	2	62.0	62.0	0.0	62	62
+Tenth Avenue North	2	60.0	60.0	1.41	59	61
+El Alfa	2	58.0	58.0	0.0	58	58
+Thomas Bergersen	2	60.5	60.5	4.95	57	64
+Thomas Rhett	2	52.0	52.0	0.0	52	52
+Little Dragon	2	43.0	43.0	14.14	33	53
+Thomas Newman	2	47.0	47.0	1.41	46	48
+Tove Lo	2	58.0	58.0	0.0	58	58
+Liz Callaway	2	35.0	35.0	42.43	5	65
+Gary Clark Jr.	2	33.0	33.0	1.41	32	34
+John Powell	2	29.5	29.5	2.12	28	31
+Tribal Seeds	2	58.0	58.0	0.0	58	58
+The Supervillains	2	54.0	54.0	0.0	54	54
+Lynyrd Skynyrd	2	48.0	48.0	14.14	38	58
+Strung Out	2	41.5	41.5	17.68	29	54
+Sublime	2	46.0	46.0	0.0	46	46
+Suburban Legends	2	25.0	25.0	9.9	18	32
+Foo Fighters	2	43.0	43.0	0.0	43	43
+Los Cafres	2	53.0	53.0	0.0	53	53
+DJ Nelson	2	45.0	45.0	24.04	28	62
+Local Natives	2	73.0	73.0	0.0	73	73
+Travis Scott	2	64.0	64.0	0.0	64	64
+Justin Moore	2	63.0	63.0	0.0	63	63
+Zeds Dead	1	18.0	18.0		18	18
+Richard M. Sherman	1	0.0	0.0		0	0
+Röyksopp	1	43.0	43.0		43	43
+Robin Williams	1	23.0	23.0		23	23
+The Slackers	1	66.0	66.0		66	66
+SOJA	1	65.0	65.0		65	65
+The Smashing Pumpkins	1	62.0	62.0		62	62
+The Mighty Mighty Bosstones	1	28.0	28.0		28	28
+The Who	1	28.0	28.0		28	28
+The Band	1	37.0	37.0		37	37
+The 1975	1	38.0	38.0		38	38
+Yandel	1	28.0	28.0		28	28
+Richard Wagner	1	5.0	5.0		5	5
+The Lawrence Arms	1	18.0	18.0		18	18
+The Wonder Kids	1	64.0	64.0		64	64
+Rodney Carrington	1	21.0	21.0		21	21
+The Aquabats!	1	27.0	27.0		27	27
+The-Dream	1	33.0	33.0		33	33
+The Wood Brothers	1	25.0	25.0		25	25
+Zion & Lennox	1	25.0	25.0		25	25
+Stevie Wonder	1	50.0	50.0		50	50
+Todd Barry	1	18.0	18.0		18	18
+Sammie	1	65.0	65.0		65	65
+United Pursuit	1	43.0	43.0		43	43
+Stephen Marley	1	33.0	33.0		33	33
+Trippie Redd	1	64.0	64.0		64	64
+Stephen Lynch	1	37.0	37.0		37	37
+SoMo	1	64.0	64.0		64	64
+Stick Figure	1	43.0	43.0		43	43
+Two Steps from Hell	1	48.0	48.0		48	48
+Trebol Clan	1	58.0	58.0		58	58
+The Chemical Brothers	1	40.0	40.0		40	40
+Sleeping At Last	1	58.0	58.0		58	58
+Sufjan Stevens	1	50.0	50.0		50	50
+UPPERROOM	1	39.0	39.0		39	39
+Umberto Giordano	1	16.0	16.0		16	16
+Skillet	1	43.0	43.0		43	43
+The Raconteurs	1	53.0	53.0		53	53
+Santana	1	26.0	26.0		26	26
+The Prodigy	1	62.0	62.0		62	62
+Wax Tailor	1	47.0	47.0		47	47
+The Flatliners	1	30.0	30.0		30	30
+Weird Al Yankovic	1	31.0	31.0		31	31
+Tony Dize	1	39.0	39.0		39	39
+Tony Bennett	1	48.0	48.0		48	48
+Tom Papa	1	20.0	20.0		20	20
+Shawn Mendes	1	52.0	52.0		52	52
+Taj Mahal	1	25.0	25.0		25	25
+Shania Twain	1	50.0	50.0		50	50
+Tim McGraw	1	54.0	54.0		54	54
+ScHoolboy Q	1	49.0	49.0		49	49
+The Montreal Children's Workshop	1	0.0	0.0		0	0
+The Beat Bugs	1	0.0	0.0		0	0
+10 Ft. Ganja Plant	1	27.0	27.0		27	27
+Rend Collective	1	30.0	30.0		30	30
+Farruko	1	39.0	39.0		39	39
+Excision	1	43.0	43.0		43	43
+Ennio Morricone	1	41.0	41.0		41	41
+Emancipator	1	49.0	49.0		49	49
+Ella Fitzgerald	1	20.0	20.0		20	20
+Elevation Worship	1	47.0	47.0		47	47
+Eddie Izzard	1	37.0	37.0		37	37
+Dustin Lynch	1	46.0	46.0		46	46
+Dr. John	1	29.0	29.0		29	29
+Donny Osmond	1	21.0	21.0		21	21
+Dispatch	1	55.0	55.0		55	55
+Dillon Francis	1	46.0	46.0		46	46
+Desmond Dekker	1	66.0	66.0		66	66
+Dean Martin	1	20.0	20.0		20	20
+Dario Marianelli	1	25.0	25.0		25	25
+Dan Zanes	1	0.0	0.0		0	0
+Falcom Sound Team jdk	1	20.0	20.0		20	20
+Felipe Esparza	1	14.0	14.0		14	14
+Rancid	1	62.0	62.0		62	62
+Flatbush Zombies	1	55.0	55.0		55	55
+Harry Gregson-Williams	1	37.0	37.0		37	37
+Hap Palmer	1	64.0	64.0		64	64
+HONNE	1	50.0	50.0		50	50
+Gustav Mahler	1	0.0	0.0		0	0
+Groundation	1	40.0	40.0		40	40
+Grizfolk	1	46.0	46.0		46	46
+Gramatik	1	32.0	32.0		32	32
+Goldfinger	1	46.0	46.0		46	46
+Georges Bizet	1	18.0	18.0		18	18
+George Bruns	1	78.0	78.0		78	78
+Gaetano Donizetti	1	4.0	4.0		4	4
+Fuego	1	60.0	60.0		60	60
+Frédéric Chopin	1	29.0	29.0		29	29
+Frank Churchill	1	1.0	1.0		1	1
+Four Tet	1	53.0	53.0		53	53
+Daft Punk	1	39.0	39.0		39	39
+DJ Shadow	1	36.0	36.0		36	36
+D.L. Hughley	1	73.0	73.0		73	73
+Comedian Bob Marley	1	14.0	14.0		14	14
+Baby Rasta & Gringo	1	28.0	28.0		28	28
+Anti-Flag	1	38.0	38.0		38	38
+Angus & Julia Stone	1	46.0	46.0		46	46
+Andrea Bocelli	1	20.0	20.0		20	20
+Alonzo Bodden	1	31.0	31.0		31	31
+Alborosie	1	32.0	32.0		32	32
+Al Green	1	60.0	60.0		60	60
+Akon	1	45.0	45.0		45	45
+Against Me!	1	49.0	49.0		49	49
+Aer	1	41.0	41.0		41	41
+Adolphe Adam	1	15.0	15.0		15	15
+Adam Sandler	1	11.0	11.0		11	11
+ASIAN KUNG-FU GENERATION	1	55.0	55.0		55	55
+A Boogie Wit da Hoodie	1	71.0	71.0		71	71
+5 Seconds of Summer	1	55.0	55.0		55	55
+Bassnectar	1	24.0	24.0		24	24
+Bear McCreary	1	41.0	41.0		41	41
+Bernard Minet	1	0.0	0.0		0	0
+Brian Regan	1	33.0	33.0		33	33
+Collie Buddz	1	62.0	62.0		62	62
+Christina Aguilera	1	64.0	64.0		64	64
+Chris Rock	1	73.0	73.0		73	73
+Charles Gounod	1	9.0	9.0		9	9
+Chad Daniels	1	32.0	32.0		32	32
+Capcom Sound Team	1	13.0	13.0		13	13
+Brian Posehn	1	20.0	20.0		20	20
+Big Gigantic	1	39.0	39.0		39	39
+Brantley Gilbert	1	44.0	44.0		44	44
+Bob Marley & The Wailers	1	76.0	76.0		76	76
+Blood Orange	1	51.0	51.0		51	51
+Blockhead	1	31.0	31.0		31	31
+Blake Shelton	1	43.0	43.0		43	43
+Bill Hicks	1	15.0	15.0		15	15
+Idina Menzel	1	19.0	19.0		19	19
+J Alvarez	1	53.0	53.0		53	53
+J.J. Cale	1	16.0	16.0		16	16
+Maluma	1	53.0	53.0		53	53
+Nicky Jam	1	28.0	28.0		28	28
+New Order	1	32.0	32.0		32	32
+Nat King Cole	1	64.0	64.0		64	64
+MxPx	1	19.0	19.0		19	19
+Monty Python	1	18.0	18.0		18	18
+Miranda Lambert	1	40.0	40.0		40	40
+Michael Giacchino	1	35.0	35.0		35	35
+Michael Franti & Spearhead	1	33.0	33.0		33	33
+Metronomy	1	42.0	42.0		42	42
+Max Richter	1	32.0	32.0		32	32
+Matisyahu	1	32.0	32.0		32	32
+Massive Attack	1	32.0	32.0		32	32
+Masked Intruder	1	41.0	41.0		41	41
+Marvin Gaye	1	56.0	56.0		56	56
+Marc Maron	1	18.0	18.0		18	18
+No Use For A Name	1	46.0	46.0		46	46
+Old Town School of Folk Music	1	1.0	1.0		1	1
+Olga Tanon	1	22.0	22.0		22	22
+Phantogram	1	66.0	66.0		66	66
+Rammstein	1	70.0	70.0		70	70
+Radha	1	0.0	0.0		0	0
+RADWIMPS	1	21.0	21.0		21	21
+Popcaan	1	61.0	61.0		61	61
+Planetshakers	1	43.0	43.0		43	43
+Phil Wickham	1	43.0	43.0		43	43
+Pepper	1	36.0	36.0		36	36
+Omar Apollo	1	64.0	64.0		64	64
+Pendulum	1	46.0	46.0		46	46
+Pearl Bailey	1	0.0	0.0		0	0
+Paul Mooney	1	16.0	16.0		16	16
+Patton Oswalt	1	18.0	18.0		18	18
+Patrick Doyle	1	21.0	21.0		21	21
+P!nk	1	71.0	71.0		71	71
+Manu Chao	1	55.0	55.0		55	55
+Mad Caddies	1	33.0	33.0		33	33
+Jack White	1	26.0	26.0		26	26
+Léo Delibes	1	11.0	11.0		11	11
+Katherine Jenkins	1	23.0	23.0		23	23
+Katastro	1	68.0	68.0		68	68
+Justin Hurwitz	1	43.0	43.0		43	43
+Justin Bieber	1	58.0	58.0		58	58
+Justice	1	43.0	43.0		43	43
+Judy Kuhn	1	32.0	32.0		32	32
+Jowell & Randy	1	53.0	53.0		53	53
+Jory Boy	1	26.0	26.0		26	26
+John Heffron	1	42.0	42.0		42	42
+Joey Montana	1	58.0	58.0		58	58
+Jodi Benson	1	31.0	31.0		31	31
+Jimmy Cliff	1	15.0	15.0		15	15
+Jimi Hendrix	1	45.0	45.0		45	45
+Jesus Culture	1	50.0	50.0		50	50
+Jason Aldean	1	42.0	42.0		42	42
+Katt Williams	1	21.0	21.0		21	21
+Kevin Penkin	1	35.0	35.0		35	35
+Kip Moore	1	21.0	21.0		21	21
+Lorie	1	5.0	5.0		5	5
+Luther Vandross	1	40.0	40.0		40	40
+Ludwig Goransson	1	35.0	35.0		35	35
+Los Fabulosos Cadillacs	1	49.0	49.0		49	49
+Los Enanitos Verdes	1	58.0	58.0		58	58
+Los Auténticos Decadentes	1	51.0	51.0		51	51
+Lorne Balfe	1	25.0	25.0		25	25
+Little Feat	1	26.0	26.0		26	26
+Kristin Chenoweth	1	19.0	19.0		19	19
+Less Than Jake	1	16.0	16.0		16	16
+Lee Brice	1	44.0	44.0		44	44
+Lagwagon	1	21.0	21.0		21	21
+Lady Antebellum	1	43.0	43.0		43	43
+L'Arc-en-Ciel	1	58.0	58.0		58	58
+Kyle Dixon & Michael Stein	1	43.0	43.0		43	43
+majiko	1	34.0	34.0		34	34

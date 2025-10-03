@@ -40,6 +40,3 @@ cut -d, -f3,16 $SAMPLES/Spotify_Filtered_1k.csv | tail -n +2 | sort -t, -k2 -nr 
 #4. "Skinny" Table
 echo "Writing Skinny Table for Artists and Popularity"
 cut -d, -f2,5 $SAMPLES/Spotify_Filtered_1k.csv | sort -t, -k2 -nru | tee $OUT/artist_pop.txt
-
-echo "Done."
-
