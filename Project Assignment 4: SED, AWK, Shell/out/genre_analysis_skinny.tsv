@@ -1,0 +1,28 @@
+Blues	34.90	0.584	0.542	49
+Rock	60.69	0.680	0.530	49
+Alternative	50.17	0.744	0.555	48
+Comedy	20.36	0.695	0.547	45
+Hip-Hop	60.52	0.627	0.715	44
+Reggae	33.81	0.621	0.693	43
+Soul	47.52	0.521	0.627	42
+Children’s Music	54.98	0.694	0.521	41
+Dance	59.02	0.693	0.636	40
+Indie	52.75	0.606	0.545	40
+Reggaeton	39.49	0.743	0.707	39
+World	34.92	0.534	0.474	39
+Electronic	36.61	0.709	0.571	38
+Folk	50.50	0.465	0.557	38
+Jazz	42.45	0.483	0.560	38
+Rap	62.81	0.614	0.695	37
+Country	47.83	0.656	0.568	36
+Movie	14.34	0.373	0.466	35
+Pop	66.97	0.629	0.625	34
+R&B	53.16	0.581	0.624	31
+Soundtrack	30.10	0.277	0.291	31
+Ska	30.89	0.846	0.520	27
+Anime	21.85	0.633	0.465	26
+Classical	29.48	0.261	0.271	21
+Opera	12.65	0.157	0.320	20
+Children's Music	2.94	0.302	0.602	18
+A Capella	5.00	0.157	0.209	1
+genre	avg_popularity	avg_energy	avg_danceability	count
