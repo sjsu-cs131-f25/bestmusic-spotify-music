@@ -13,6 +13,13 @@ This project implements a comprehensive data analysis pipeline for Spotify music
 - **Clean Logging**: Color-coded output with informative messages
 - **Error Recovery**: Graceful cleanup of temporary files
 
+### 📊 **Part E: Temporal/String Structure Analysis**
+- **Length Bucketing**: Track and artist name length distribution analysis
+- **Duration Buckets**: Temporal-like structure through duration ranges
+- **Popularity Ranges**: Distribution analysis by popularity score buckets
+- **Case Normalization**: Duplicate detection through tolower() normalization
+- **String Structure**: Reveals dataset patterns through frequency analysis
+
 ### 📊 **SED Data Cleaning**
 - **Whitespace Normalization**: Trims leading/trailing spaces, collapses internal whitespace
 - **Character Encoding**: Removes carriage returns and normalizes quotes
@@ -24,18 +31,20 @@ This project implements a comprehensive data analysis pipeline for Spotify music
 - **Top-N Lists**: Most popular tracks and highest tempo tracks
 - **Skinny Tables**: Key columns for downstream analysis
 - **Statistical Aggregation**: Genre-level metrics with averages and counts
-- **Duration Bucketing**: Temporal structure analysis by track length
-- **Capitalization Normalization**: Duplicate detection using case-insensitive matching
 - **Deterministic Sorting**: Consistent output ordering
 
 ## Usage
 
 ```bash
-# Run the analysis pipeline
+# Run the main analysis pipeline
 ./run_pa4.sh <INPUT_FILE>
 
-# Example
+# Run Part E: Temporal/String Structure Analysis
+./scripts/task5_temporal_string_structure.sh <INPUT_FILE>
+
+# Examples
 ./run_pa4.sh ../data/samples/Spotify_Filtered_1k.csv
+./scripts/task5_temporal_string_structure.sh ../data/samples/Spotify_Filtered_1k.csv
 ```
 
 ## Output Files
@@ -58,13 +67,17 @@ The script generates the following outputs in the `out/` directory:
 - `artist_popularity_skinny.tsv` - Artist-level metrics (popularity, energy, danceability)
 - `genre_analysis_skinny.tsv` - Genre-level aggregated statistics
 
-### 🕐 **Part E: Structure Analysis**
-- `duration_buckets.tsv` - Temporal structure by track duration buckets
-- `capitalization_analysis.tsv` - Duplicate detection via case normalization
-- `structure_analysis_summary.txt` - Part E comprehensive overview
-
 ### 📝 **Summary**
 - `analysis_summary.txt` - Comprehensive analysis overview
+
+### 📊 **Part E: Structure Analysis**
+- `track_name_length_buckets.tsv` - Track name length distribution
+- `artist_name_length_buckets.tsv` - Artist name length distribution
+- `duration_buckets.tsv` - Track duration range distribution
+- `popularity_range_buckets.tsv` - Popularity score range distribution
+- `case_normalization_analysis.tsv` - Artist case normalization analysis
+- `genre_case_analysis.tsv` - Genre case normalization analysis
+- `part_e_structure_summary.txt` - Structure analysis summary
 
 ## Technical Implementation
 
