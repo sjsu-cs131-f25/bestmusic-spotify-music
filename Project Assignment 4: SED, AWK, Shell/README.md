@@ -24,6 +24,8 @@ This project implements a comprehensive data analysis pipeline for Spotify music
 - **Top-N Lists**: Most popular tracks and highest tempo tracks
 - **Skinny Tables**: Key columns for downstream analysis
 - **Statistical Aggregation**: Genre-level metrics with averages and counts
+- **Duration Bucketing**: Temporal structure analysis by track length
+- **Capitalization Normalization**: Duplicate detection using case-insensitive matching
 - **Deterministic Sorting**: Consistent output ordering
 
 ## Usage
@@ -55,6 +57,11 @@ The script generates the following outputs in the `out/` directory:
 ### 📈 **Analysis Tables**
 - `artist_popularity_skinny.tsv` - Artist-level metrics (popularity, energy, danceability)
 - `genre_analysis_skinny.tsv` - Genre-level aggregated statistics
+
+### 🕐 **Part E: Structure Analysis**
+- `duration_buckets.tsv` - Temporal structure by track duration buckets
+- `capitalization_analysis.tsv` - Duplicate detection via case normalization
+- `structure_analysis_summary.txt` - Part E comprehensive overview
 
 ### 📝 **Summary**
 - `analysis_summary.txt` - Comprehensive analysis overview
