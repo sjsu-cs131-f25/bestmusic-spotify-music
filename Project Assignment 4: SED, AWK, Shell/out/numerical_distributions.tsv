@@ -1,0 +1,6 @@
+column	min	max	mean	count
+popularity	0	98	42.54	950
+acousticness	0.0001	0.9950	0.3419	938
+danceability	0.0639	0.9530	0.5595	950
+duration_ms	30998	1280358	235939.57	950
+energy	0.0005	0.9950	0.5885	950

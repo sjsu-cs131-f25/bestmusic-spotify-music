@@ -20,6 +20,13 @@ This project implements a comprehensive data analysis pipeline for Spotify music
 - **Case Normalization**: Duplicate detection through tolower() normalization
 - **String Structure**: Reveals dataset patterns through frequency analysis
 
+### 🔍 **Part F: Signal Discovery**
+- **Text Column Analysis**: Case-folding, keyword families, surface top signals
+- **Numerical Column Analysis**: Statistical distributions, outlier detection, categorical comparisons
+- **Keyword Family Detection**: Identifies thematic patterns in track names
+- **Z-Score Outlier Analysis**: Statistical outlier detection with z-score thresholds
+- **Genre Signal Analysis**: Frequency-based signal discovery across genres
+
 ### 📊 **SED Data Cleaning**
 - **Whitespace Normalization**: Trims leading/trailing spaces, collapses internal whitespace
 - **Character Encoding**: Removes carriage returns and normalizes quotes
@@ -42,9 +49,13 @@ This project implements a comprehensive data analysis pipeline for Spotify music
 # Run Part E: Temporal/String Structure Analysis
 ./scripts/task5_temporal_string_structure.sh <INPUT_FILE>
 
+# Run Part F: Signal Discovery Analysis
+./scripts/task6_signal_discovery.sh <INPUT_FILE>
+
 # Examples
 ./run_pa4.sh ../data/samples/Spotify_Filtered_1k.csv
 ./scripts/task5_temporal_string_structure.sh ../data/samples/Spotify_Filtered_1k.csv
+./scripts/task6_signal_discovery.sh ../data/samples/Spotify_Filtered_1k.csv
 ```
 
 ## Output Files
@@ -78,6 +89,17 @@ The script generates the following outputs in the `out/` directory:
 - `case_normalization_analysis.tsv` - Artist case normalization analysis
 - `genre_case_analysis.tsv` - Genre case normalization analysis
 - `part_e_structure_summary.txt` - Structure analysis summary
+
+### 🔍 **Part F: Signal Discovery**
+- `genre_case_folding_analysis.tsv` - Genre case-folding patterns
+- `track_name_keyword_families.tsv` - Keyword families in track names
+- `genre_top_signals.tsv` - Top genre frequency signals
+- `artist_name_patterns.tsv` - Artist naming pattern analysis
+- `numerical_distributions.tsv` - Statistical distributions for numerical columns
+- `outlier_analysis.tsv` - Z-score outlier detection results
+- `genre_categorical_comparison.tsv` - Genre-based categorical analysis
+- `high_percentage_thresholds.tsv` - Percentage-based threshold analysis
+- `part_f_signal_discovery_summary.txt` - Signal discovery summary
 
 ## Technical Implementation
 
