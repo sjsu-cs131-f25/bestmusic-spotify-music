@@ -350,19 +350,25 @@ echo "STEP 5: String Structure Analysis..."
         len = length(artist)
         if (len <= 10) {
             buckets["SHORT"]++
+            short_len += len
+            short_count++
         } else if (len <= 20) {
             buckets["MEDIUM"]++
+            med_len += len
+            med_count++
         } else {
             buckets["LONG"]++
+            long_len += len
+            long_count++
         }
         total_len += len
         count++
     }
     END {
         printf "length_bucket\tcount\tavg_length\n"
-        printf "SHORT\t%d\t%.2f\n", buckets["SHORT"]+0, (buckets["SHORT"] ? total_len/count : 0)
-        printf "MEDIUM\t%d\t%.2f\n", buckets["MEDIUM"]+0, (buckets["MEDIUM"] ? total_len/count : 0)
-        printf "LONG\t%d\t%.2f\n", buckets["LONG"]+0, (buckets["LONG"] ? total_len/count : 0)
+        printf "SHORT\t%d\t%.2f\n", buckets["SHORT"]+0, (buckets["SHORT"] ? short_len/short_count : 0)
+        printf "MEDIUM\t%d\t%.2f\n", buckets["MEDIUM"]+0, (buckets["MEDIUM"] ? med_len/med_count : 0)
+        printf "LONG\t%d\t%.2f\n", buckets["LONG"]+0, (buckets["LONG"] ? long_len/long_count : 0)
         printf "TOTAL\t%d\t%.2f\n", count, (count ? total_len/count : 0)
     }' "$OUT_DIR/filtered.tsv" > "$OUT_DIR/artist_name_length_buckets.tsv"
     
