@@ -53,19 +53,32 @@ echo "STEP 1: Data Cleaning and Normalization..."
     echo ""
     
     # SED cleaning rules
+    # 1. Check for commas in entries enclosed with "";
+        # Note: This is a very simple approach to cleaning these for now
+        # Note: Must check commas in this order otherwise SED cleaning breaks
+    # 2. Check for trailing whitespace
+    # 3. Check for 2+ whitespaces for each space
+    # 4. Check for carriage returns
+    # 5. Normalize quotations
+    # 6 and 7. Fringe cases of title or white space in front of columns  
+    # Right after, filter out any other additional column issues we come across when we can't deal with it
     sed -E \
-        -e '1s/^\xEF\xBB\xBF//' \
+        -e 's/("[^,"]*),+([^,"]*),([^,"]*),([^,"]*),([^,"]*")/\1 \2 \3 \4 \5/g' \
+        -e 's/("[^,"]*),+([^,"]*),([^,"]*),([^,"]*")/\1 \2 \3 \4/g' \
+        -e 's/("[^,"]*),+([^,"]*),([^,"]*")/\1 \2 \3/g' \
+        -e 's/("[^,"]*),+([^,"]*")/\1 \2/g' \
         -e 's/^[[:space:]]+|[[:space:]]+$//g' \
         -e 's/[[:space:]]+/ /g' \
         -e 's/\r//g' \
         -e 's/""//g' \
         -e 's/^"|"$//g' \
         -e 's/,[[:space:]]*$/,/g' \
+        -e 's/\///g' \
         "$INPUT_FILE" > "$OUT_DIR/cleaned_data.csv"
     
     # Generate samples
-    head -10 "$INPUT_FILE" > "$OUT_DIR/before_sample.txt"
-    head -10 "$OUT_DIR/cleaned_data.csv" > "$OUT_DIR/after_sample.txt"
+    head -50 "$INPUT_FILE" > "$OUT_DIR/before_sample.txt"
+    head -50 "$OUT_DIR/cleaned_data.csv" > "$OUT_DIR/after_sample.txt"
     
     original_lines=$(wc -l < "$INPUT_FILE")
     cleaned_lines=$(wc -l < "$OUT_DIR/cleaned_data.csv")
@@ -93,7 +106,6 @@ echo "STEP 2: UNIX EDA Analysis..."
     # 1. Genre frequency table
     echo "1. Creating genre frequency table..."
     awk -F',' '
-    BEGIN { print "genre\tcount" }
     NR > 1 {
         genre = $1
         gsub(/^[[:space:]]+|[[:space:]]+$/, "", genre)
@@ -105,12 +117,14 @@ echo "STEP 2: UNIX EDA Analysis..."
         for (g in freq) {
             printf "%s\t%d\n", g, freq[g]
         }
-    }' "$OUT_DIR/cleaned_data.csv" | sort -t$'\t' -k2,2nr > "$OUT_DIR/freq_genre.tsv"
+    }' "$OUT_DIR/cleaned_data.csv" | sort -t$'\t' -k2,2nr | 
+    # Keeps header on top of file after sort
+    awk -F',' 'BEGIN { print "genre\tcount" }
+    {print}' > "$OUT_DIR/freq_genre.tsv"
     
     # 2. Artist frequency table
     echo "2. Creating artist frequency table..."
     awk -F',' '
-    BEGIN { print "artist_name\tcount" }
     NR > 1 {
         artist = $2
         gsub(/^[[:space:]]+|[[:space:]]+$/, "", artist)
@@ -122,31 +136,42 @@ echo "STEP 2: UNIX EDA Analysis..."
         for (a in freq) {
             printf "%s\t%d\n", a, freq[a]
         }
-    }' "$OUT_DIR/cleaned_data.csv" | sort -t$'\t' -k2,2nr > "$OUT_DIR/freq_artists.tsv"
+    }' "$OUT_DIR/cleaned_data.csv" | sort -t$'\t' -k2,2nr | 
+    # Keeps header on top of file after sort
+    awk -F',' 'BEGIN { print "artist_name\tcount" }
+    {print}' > "$OUT_DIR/freq_artists.tsv"
     
     # 3. Top 10 popular tracks
     echo "3. Creating top 10 popular tracks..."
+
     awk -F',' '
-    BEGIN { print "track_name\tartist_name\tpopularity" }
+    BEGIN { 
+        print "track_name\tartist_name\tpopularity" 
+    }
     NR > 1 {
-        if ($5 ~ /^[0-9]+$/) {
-            popularity = $5 + 0
-            track = $3
-            artist = $2
-            gsub(/^[[:space:]]+|[[:space:]]+$/, "", track)
-            gsub(/^[[:space:]]+|[[:space:]]+$/, "", artist)
-            if (track != "" && artist != "" && track != "track_name") {
-                printf "%s\t%s\t%d\n", track, artist, popularity
-            }
+        track = $3
+        artist = $2
+        pop = $5
+        gsub(/^[[:space:]]+|[[:space:]]+$/, "", track)
+        gsub(/^[[:space:]]+|[[:space:]]+$/, "", artist)
+        gsub(/^[[:space:]]+|[[:space:]]+$/, "", pop)
+        if (pop != "" && pop != "popularity" && pop ~ /^[0-9]+$/) {
+            tracks[pop] = track "\t" artist "\t" pop
         }
-    }' "$OUT_DIR/cleaned_data.csv" | sort -t$'\t' -k3,3nr | head -10 > "$OUT_DIR/top10_popular_tracks.tsv"
+    }
+    END {
+        for (p in tracks) {
+            print tracks[p]
+        }
+    }' "$OUT_DIR/cleaned_data.csv" | sort -t$'\t' -k3,3nr | head -10 |
+    # Keeps header on top of file after sort
+    awk -F',' 'BEGIN { 
+        print "track_name\tartist_name\tpopularity" 
+    } {print}'> "${OUT_DIR}/top10_popular_tracks.tsv"
     
     # 4. Artist popularity skinny table
     echo "4. Creating artist popularity skinny table..."
     awk -F',' '
-    BEGIN { 
-        print "artist_name\tgenre\ttrack_id\tpopularity\tenergy\tdanceability" 
-    }
     NR > 1 {
         artist = $2
         genre = $1
@@ -163,7 +188,11 @@ echo "STEP 2: UNIX EDA Analysis..."
         if (artist != "" && artist != "artist_name") {
             printf "%s\t%s\t%s\t%s\t%s\t%s\n", artist, genre, track_id, pop, energy, dance
         }
-    }' "$OUT_DIR/cleaned_data.csv" | sort -t$'\t' -k1,1 > "$OUT_DIR/artist_popularity_skinny.tsv"
+    }' "$OUT_DIR/cleaned_data.csv" | sort -t$'\t' -k1,1 |
+    # Keeps header on top of file after sort
+    awk -F',' 'BEGIN { 
+        print "artist_name\tgenre\ttrack_id\tpopularity\tenergy\tdanceability" 
+    } {print}' > "$OUT_DIR/artist_popularity_skinny.tsv"
     
     echo "Step 2 Results:"
     echo "  Frequency tables: freq_genre.tsv, freq_artists.tsv"
@@ -187,18 +216,14 @@ echo "STEP 3: Quality Filters..."
     echo ""
     
     # Apply quality filters
-    awk -F'\t' -v OFS='\t' -v min_pop="40" '
-    BEGIN {
-        print "artist_name\tgenre\ttrack_id\tpopularity\tenergy\tdanceability"
-        IGNORECASE=1
-    }
-    {
+    awk -F'\t' -v OFS='\t' -v min_pop=40 ' 
+    NR>1 {
         artist = $1
         genre = $2
         track_id = $3
-        popularity = $4 + 0
-        energy = $5 + 0
-        danceability = $6 + 0
+        popularity = $4+0
+        energy = $5+0
+        danceability = $6+0
         
         # Business rules
         req_ok = (artist != "" && popularity != "")
@@ -210,7 +235,10 @@ echo "STEP 3: Quality Filters..."
             printf "%s\t%s\t%s\t%d\t%.4f\t%.4f\n", 
                    artist, genre, track_id, popularity, energy, danceability
         }
-    }' "$OUT_DIR/artist_popularity_skinny.tsv" > "$OUT_DIR/filtered.tsv"
+    }' "$OUT_DIR/artist_popularity_skinny.tsv" |
+    awk -F'\t' 'BEGIN {
+        print "artist_name\tgenre\ttrack_id\tpopularity\tenergy\tdanceability"
+    } {print}' > "$OUT_DIR/filtered.tsv"
     
     # Generate statistics
     total_rows=$(($(wc -l < "$OUT_DIR/artist_popularity_skinny.tsv")))
@@ -291,7 +319,9 @@ echo "STEP 4: Ratios, Buckets, and Per-Artist Summary..."
        avg = (cnt[k] ? sum[k]/cnt[k] : 0)
            printf("%-30s\t%6d\t%8.2f\t%8.2f\t%8.2f\n", k, cnt[k], avg, min[k], max[k])
        }
-    }' "$OUT_DIR/filtered.tsv" | sort -k2,2nr > "$OUT_DIR/per_artist_summary.tsv"
+    }' "$OUT_DIR/filtered.tsv" | sort -k2,2nr |
+    awk -F'\t' 'BEGIN {print "artist\tcount\tavg_pop\tmin_pop\tmax_pop"}
+        {print}' > "$OUT_DIR/per_artist_summary.tsv"
     
     echo "Step 4 Results:"
     echo "  Ratio report: ratio_report.txt"
@@ -359,9 +389,9 @@ echo "STEP 6: Signal Discovery..."
     awk -F'\t' '
     NR==1 { next }  # Skip header
     {
-        popularity = $4 + 0
-        energy = $5 + 0
-        danceability = $6 + 0
+        popularity = $4+0
+        energy = $5+0
+        danceability = $6+0
         
         # Popularity stats
         pop_sum += popularity
