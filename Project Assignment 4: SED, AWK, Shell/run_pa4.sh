@@ -73,7 +73,6 @@ echo "STEP 1: Data Cleaning and Normalization..."
         -e 's/""//g' \
         -e 's/^"|"$//g' \
         -e 's/,[[:space:]]*$/,/g' \
-        -e 's/\///g' \
         "$INPUT_FILE" > "$OUT_DIR/cleaned_data.csv"
     
     # Generate samples
