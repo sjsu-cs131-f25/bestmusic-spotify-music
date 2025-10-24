@@ -113,21 +113,23 @@ echo "3. Creating skinny table..."
 echo "  - Artist popularity skinny table..."
 awk -F',' '
 BEGIN { 
-    print "artist_name\tgenre\tpopularity\tenergy\tdanceability" 
+    print "artist_name\tgenre\ttrack_id\tpopularity\tenergy\tdanceability" 
 }
 NR > 1 {
     artist = $2
     genre = $1
+    track_id = $4
     pop = $5
     energy = $9
     dance = $7
     gsub(/^[[:space:]]+|[[:space:]]+$/, "", artist)
     gsub(/^[[:space:]]+|[[:space:]]+$/, "", genre)
+    gsub(/^[[:space:]]+|[[:space:]]+$/, "", track_id)
     gsub(/^[[:space:]]+|[[:space:]]+$/, "", pop)
     gsub(/^[[:space:]]+|[[:space:]]+$/, "", energy)
     gsub(/^[[:space:]]+|[[:space:]]+$/, "", dance)
     if (artist != "" && artist != "artist_name") {
-        printf "%s\t%s\t%s\t%s\t%s\n", artist, genre, pop, energy, dance
+        printf "%s\t%s\t%s\t%s\t%s\t%s\n", artist, genre, track_id, pop, energy, dance
     }
 }' "${INPUT_FILE}" | sort -t$'\t' -k1,1 > "${OUTPUT_DIR}/artist_popularity_skinny.tsv"
 
