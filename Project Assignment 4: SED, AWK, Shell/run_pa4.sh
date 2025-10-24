@@ -337,57 +337,8 @@ echo "STEP 5: String Structure Analysis..."
         printf "TOTAL\t%d\t%.2f\n", count, (count ? total_len/count : 0)
     }' "$OUT_DIR/filtered.tsv" > "$OUT_DIR/artist_name_length_buckets.tsv"
     
-    # 2. Track ID pattern analysis
-    echo "2. Analyzing track ID patterns..."
-    awk -F'\t' '
-    NR==1 { next }  # Skip header
-    {
-        track_id = $3
-        len = length(track_id)
-        if (len == 22) {
-            patterns["22_CHAR"]++
-        } else {
-            patterns["OTHER"]++
-        }
-        # Check for alphanumeric pattern
-        if (track_id ~ /^[A-Za-z0-9]+$/) {
-            patterns["ALPHANUMERIC"]++
-        } else {
-            patterns["NON_ALPHANUMERIC"]++
-        }
-    }
-    END {
-        printf "pattern_type\tcount\n"
-        for (p in patterns) {
-            printf "%s\t%d\n", p, patterns[p]
-        }
-    }' "$OUT_DIR/filtered.tsv" > "$OUT_DIR/track_id_patterns.tsv"
-    
-    # 3. Popularity range buckets
-    echo "3. Creating popularity range buckets..."
-    awk -F'\t' '
-    NR==1 { next }  # Skip header
-    {
-        pop = $4 + 0
-        if (pop < 50) {
-            buckets["LOW"]++
-        } else if (pop < 70) {
-            buckets["MEDIUM"]++
-        } else {
-            buckets["HIGH"]++
-        }
-    }
-    END {
-        printf "popularity_range\tcount\n"
-        printf "LOW\t%d\n", buckets["LOW"]+0
-        printf "MEDIUM\t%d\n", buckets["MEDIUM"]+0
-        printf "HIGH\t%d\n", buckets["HIGH"]+0
-    }' "$OUT_DIR/filtered.tsv" > "$OUT_DIR/popularity_range_buckets.tsv"
-    
     echo "Step 5 Results:"
     echo "  Artist name length: artist_name_length_buckets.tsv"
-    echo "  Track ID patterns: track_id_patterns.tsv"
-    echo "  Popularity ranges: popularity_range_buckets.tsv"
     
 } | tee "$LOG_DIR/step5.log"
 
@@ -449,53 +400,8 @@ echo "STEP 6: Signal Discovery..."
         printf "danceability\t%.4f\t%.4f\t%.4f\t%.4f\n", dance_mean, dance_std, dance_min, dance_max
     }' "$OUT_DIR/filtered.tsv" > "$OUT_DIR/numerical_distributions.tsv"
     
-    # 2. Genre analysis
-    echo "2. Computing genre analysis..."
-    awk -F'\t' '
-    NR==1 { next }  # Skip header
-    {
-        genre = $2
-        popularity = $4 + 0
-        energy = $5 + 0
-        danceability = $6 + 0
-        
-        genre_count[genre]++
-        genre_pop_sum[genre] += popularity
-        genre_energy_sum[genre] += energy
-        genre_dance_sum[genre] += danceability
-    }
-    END {
-        printf "genre\tcount\tavg_popularity\tavg_energy\tavg_danceability\n"
-        for (g in genre_count) {
-            avg_pop = genre_pop_sum[g] / genre_count[g]
-            avg_energy = genre_energy_sum[g] / genre_count[g]
-            avg_dance = genre_dance_sum[g] / genre_count[g]
-            printf "%s\t%d\t%.2f\t%.4f\t%.4f\n", g, genre_count[g], avg_pop, avg_energy, avg_dance
-        }
-    }' "$OUT_DIR/filtered.tsv" | sort -t$'\t' -k3,3nr > "$OUT_DIR/genre_analysis_skinny.tsv"
-    
-    # 3. Signal discovery summary
-    echo "3. Creating signal discovery summary..."
-    {
-        echo "=== SIGNAL DISCOVERY SUMMARY ==="
-        echo ""
-        echo "1. Distribution Profiles:"
-        cat "$OUT_DIR/numerical_distributions.tsv"
-        echo ""
-        echo "2. Top Genres by Popularity:"
-        head -5 "$OUT_DIR/genre_analysis_skinny.tsv"
-        echo ""
-        echo "3. Energy Buckets:"
-        cat "$OUT_DIR/energy_buckets.tsv"
-        echo ""
-        echo "4. Hip-Hop Ratio:"
-        cat "$OUT_DIR/ratio_report.txt"
-    } > "$OUT_DIR/signal_discovery_summary.txt"
-    
     echo "Step 6 Results:"
     echo "  Numerical distributions: numerical_distributions.tsv"
-    echo "  Genre analysis: genre_analysis_skinny.tsv"
-    echo "  Signal summary: signal_discovery_summary.txt"
     
 } | tee "$LOG_DIR/step6.log"
 
@@ -514,8 +420,8 @@ echo "  Step 1: cleaned_data.csv, before_sample.txt, after_sample.txt"
 echo "  Step 2: freq_genre.tsv, freq_artists.tsv, top10_popular_tracks.tsv, artist_popularity_skinny.tsv"
 echo "  Step 3: filtered.tsv"
 echo "  Step 4: ratio_report.txt, energy_buckets.tsv, per_artist_summary.tsv"
-echo "  Step 5: artist_name_length_buckets.tsv, track_id_patterns.tsv, popularity_range_buckets.tsv"
-echo "  Step 6: numerical_distributions.tsv, genre_analysis_skinny.tsv, signal_discovery_summary.txt"
+echo "  Step 5: artist_name_length_buckets.tsv"
+echo "  Step 6: numerical_distributions.tsv"
 echo ""
 echo "Output Directory: $OUT_DIR/"
 echo "Logs Directory: $LOG_DIR/"
