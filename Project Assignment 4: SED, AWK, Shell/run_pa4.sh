@@ -319,7 +319,7 @@ echo "STEP 4: Ratios, Buckets, and Per-Artist Summary..."
        avg = (cnt[k] ? sum[k]/cnt[k] : 0)
            printf("%-30s\t%6d\t%8.2f\t%8.2f\t%8.2f\n", k, cnt[k], avg, min[k], max[k])
        }
-    }' "$OUT_DIR/filtered.tsv" | sort -k2,2nr |
+    }' "$OUT_DIR/filtered.tsv" | sort -t '\t' -k2,2 -nr |
     awk -F'\t' 'BEGIN {print "artist\tcount\tavg_pop\tmin_pop\tmax_pop"}
         {print}' > "$OUT_DIR/per_artist_summary.tsv"
     
