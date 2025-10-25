@@ -53,24 +53,23 @@ echo "STEP 1: Data Cleaning and Normalization..."
     echo ""
     
     # SED cleaning rules
-    # 1. Check for commas in entries enclosed with "";
+    # 1. Normalize quotations
+    # 2. Check for commas in entries enclosed with "";
         # Note: This is a very simple approach to cleaning these for now
         # Note: Must check commas in this order otherwise SED cleaning breaks
-    # 2. Check for trailing whitespace
-    # 3. Check for 2+ whitespaces for each space
-    # 4. Check for carriage returns
-    # 5. Normalize quotations
-    # 6 and 7. Fringe cases of title or white space in front of columns  
-    # Right after, filter out any other additional column issues we come across when we can't deal with it
+    # 3. Check for trailing whitespace
+    # 4. Check for 2+ whitespaces for each space
+    # 5. Check for carriage returns
+    # 6. Fringe cases of title or white space in front of columns  
     sed -E \
-        -e 's/("[^,"]*),+([^,"]*),([^,"]*),([^,"]*),([^,"]*")/\1 \2 \3 \4 \5/g' \
-        -e 's/("[^,"]*),+([^,"]*),([^,"]*),([^,"]*")/\1 \2 \3 \4/g' \
-        -e 's/("[^,"]*),+([^,"]*),([^,"]*")/\1 \2 \3/g' \
-        -e 's/("[^,"]*),+([^,"]*")/\1 \2/g' \
+        -e 's/""//g' \
+        -e 's/("[^,"]+),+([^,"]*),([^,"]*),([^,"]*),([^,"]*")/\1 \2 \3 \4 \5/g' \
+        -e 's/("[^,"]+),+([^,"]*),([^,"]*),([^,"]*")/\1 \2 \3 \4/g' \
+        -e 's/("[^,"]+),+([^,"]*),([^,"]*")/\1 \2 \3/g' \
+        -e 's/("[^,"]+),+([^,"]*")/\1 \2/g' \
         -e 's/^[[:space:]]+|[[:space:]]+$//g' \
         -e 's/[[:space:]]+/ /g' \
         -e 's/\r//g' \
-        -e 's/""//g' \
         -e 's/^"|"$//g' \
         -e 's/,[[:space:]]*$/,/g' \
         "$INPUT_FILE" > "$OUT_DIR/cleaned_data.csv"
@@ -313,7 +312,6 @@ echo "STEP 4: Ratios, Buckets, and Per-Artist Summary..."
     	if (!(a in max) || p > max[a]) max[a]=p
     }
     END{
-      printf("%-30s\t%6s\t%8s\t%8s\t%8s\n","artist","count","avg_pop","min_pop","max_pop")
       for(k in cnt){
        avg = (cnt[k] ? sum[k]/cnt[k] : 0)
            printf("%-30s\t%6d\t%8.2f\t%8.2f\t%8.2f\n", k, cnt[k], avg, min[k], max[k])
