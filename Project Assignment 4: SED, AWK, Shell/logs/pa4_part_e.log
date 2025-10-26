@@ -1,0 +1,52 @@
+[0;34m[2025-10-20 13:07:31][0m Starting Part E: Temporal/String Structure Analysis
+[0;34m[2025-10-20 13:07:31][0m Input file: ../data/samples/Spotify_Filtered_1k.csv
+[0;34m[2025-10-20 13:07:31][0m Output directory: /Users/radhikamandhanya/bestmusic-spotify-music/Project Assignment 4: SED, AWK, Shell/out
+[0;34m[2025-10-20 13:07:31][0m Cleaning input data...
+[0;34m[2025-10-20 13:07:31][0m Analyzing track name length distribution...
+[0;34m[2025-10-20 13:07:32][0m Analyzing artist name length distribution...
+[0;34m[2025-10-20 13:07:32][0m Analyzing track duration buckets...
+[0;34m[2025-10-20 13:07:32][0m Analyzing popularity range distribution...
+[0;34m[2025-10-20 13:07:32][0m Analyzing case normalization for duplicate detection...
+[0;34m[2025-10-20 13:07:32][0m Analyzing genre case patterns...
+[0;34m[2025-10-20 13:07:32][0m Creating structure analysis summary...
+[0;32m[SUCCESS][0m Part E analysis completed successfully!
+[0;34m[2025-10-20 13:07:32][0m Generated files in /Users/radhikamandhanya/bestmusic-spotify-music/Project Assignment 4: SED, AWK, Shell/out:
+-rw-r--r--  1 radhikamandhanya  staff    105 Oct 20 13:07 /Users/radhikamandhanya/bestmusic-spotify-music/Project Assignment 4: SED, AWK, Shell/out/artist_name_length_buckets.tsv
+-rw-r--r--  1 radhikamandhanya  staff  33702 Oct 20 12:55 /Users/radhikamandhanya/bestmusic-spotify-music/Project Assignment 4: SED, AWK, Shell/out/artist_popularity_skinny.tsv
+-rw-r--r--  1 radhikamandhanya  staff   6249 Oct 20 13:02 /Users/radhikamandhanya/bestmusic-spotify-music/Project Assignment 4: SED, AWK, Shell/out/capitalization_analysis.tsv
+-rw-r--r--  1 radhikamandhanya  staff   2986 Oct 20 13:07 /Users/radhikamandhanya/bestmusic-spotify-music/Project Assignment 4: SED, AWK, Shell/out/case_normalization_analysis.tsv
+-rw-r--r--  1 radhikamandhanya  staff    116 Oct 20 13:07 /Users/radhikamandhanya/bestmusic-spotify-music/Project Assignment 4: SED, AWK, Shell/out/duration_buckets.tsv
+-rw-r--r--  1 radhikamandhanya  staff     64 Oct 20 12:55 /Users/radhikamandhanya/bestmusic-spotify-music/Project Assignment 4: SED, AWK, Shell/out/energy_buckets.tsv
+-rw-r--r--  1 radhikamandhanya  staff  19400 Oct 20 12:55 /Users/radhikamandhanya/bestmusic-spotify-music/Project Assignment 4: SED, AWK, Shell/out/filtered.tsv
+-rw-r--r--  1 radhikamandhanya  staff  12163 Oct 20 12:55 /Users/radhikamandhanya/bestmusic-spotify-music/Project Assignment 4: SED, AWK, Shell/out/freq_artists.tsv
+-rw-r--r--  1 radhikamandhanya  staff    300 Oct 20 12:55 /Users/radhikamandhanya/bestmusic-spotify-music/Project Assignment 4: SED, AWK, Shell/out/freq_genre.tsv
+-rw-r--r--  1 radhikamandhanya  staff    827 Oct 20 12:55 /Users/radhikamandhanya/bestmusic-spotify-music/Project Assignment 4: SED, AWK, Shell/out/genre_analysis_skinny.tsv
+-rw-r--r--  1 radhikamandhanya  staff    510 Oct 20 13:07 /Users/radhikamandhanya/bestmusic-spotify-music/Project Assignment 4: SED, AWK, Shell/out/genre_case_analysis.tsv
+-rw-r--r--  1 radhikamandhanya  staff   1961 Oct 20 13:07 /Users/radhikamandhanya/bestmusic-spotify-music/Project Assignment 4: SED, AWK, Shell/out/part_e_structure_summary.txt
+-rw-r--r--  1 radhikamandhanya  staff  32058 Oct 20 12:55 /Users/radhikamandhanya/bestmusic-spotify-music/Project Assignment 4: SED, AWK, Shell/out/per_artist_summary.tsv
+-rw-r--r--  1 radhikamandhanya  staff    116 Oct 20 13:07 /Users/radhikamandhanya/bestmusic-spotify-music/Project Assignment 4: SED, AWK, Shell/out/popularity_range_buckets.tsv
+-rw-r--r--  1 radhikamandhanya  staff    390 Oct 20 12:55 /Users/radhikamandhanya/bestmusic-spotify-music/Project Assignment 4: SED, AWK, Shell/out/top10_popular_tracks.tsv
+-rw-r--r--  1 radhikamandhanya  staff    414 Oct 20 12:55 /Users/radhikamandhanya/bestmusic-spotify-music/Project Assignment 4: SED, AWK, Shell/out/top10_tempo_tracks.tsv
+-rw-r--r--  1 radhikamandhanya  staff    124 Oct 20 13:07 /Users/radhikamandhanya/bestmusic-spotify-music/Project Assignment 4: SED, AWK, Shell/out/track_name_length_buckets.tsv
+[0;34m[2025-10-20 13:07:32][0m Summary Statistics:
+Track Name Length Buckets:
+11-20	407	42.84%
+1-10	268	28.21%
+21-30	145	15.26%
+31-40	59	6.21%
+41-50	39	4.11%
+
+Duration Buckets:
+2-4min	539	56.74%
+4-6min	295	31.05%
+6-8min	50	5.26%
+0-2min	48	5.05%
+8min+	18	1.89%
+
+Popularity Range Buckets:
+40-59	384	40.42%
+20-39	284	29.89%
+60-79	172	18.11%
+0-19	106	11.16%
+80-100	4	0.42%
+[0;34m[2025-10-20 13:07:32][0m Cleaned up temporary directory: /tmp/pa4_part_e_13651
