@@ -25,6 +25,7 @@ if [[ ! -f "$INPUT_FILE" ]]; then
     exit 1
 fi
 
+chmod -R g+rX "$INPUT_FILE"
 # Create directories
 mkdir -p "$OUT_DIR" "$LOG_DIR" "$TEMP_DIR"
 
