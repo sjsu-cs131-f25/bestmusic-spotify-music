@@ -1,8 +1,0 @@
-metric	threshold_type	threshold_value	count_above	percentage
-popularity	high_80+	80	4	0.42%
-popularity	very_high_90+	90	1	0.11%
-popularity	low_10-	10	51	5.37%
-energy	high_0.8+	0.8	217	22.84%
-energy	low_0.2-	0.2	83	8.74%
-tempo	high_150+	150	142	14.95%
-tempo	low_80-	80	93	9.79%
