@@ -1,0 +1,28 @@
+     48 Ska
+     47 Soundtrack
+     46 Comedy
+     45 Electronic
+     44 Folk
+     41 Soul
+     40 Jazz
+     40 Indie
+     39 World
+     39 Rock
+     39 R&B
+     39 Movie
+     39 Country
+     39 Anime
+     38 Pop
+     37 Children’s Music
+     37 Blues
+     37 Alternative
+     35 Reggae
+     34 Reggaeton
+     34 Rap
+     31 Hip-Hop
+     31 Dance
+     15 Classical
+     15 Children's Music
+     10 Opera
+      1 ﻿genre
+      1 A Capella

@@ -1,0 +1,1 @@
+As of 11/24/2025, run_project3.sh must be run from within the sprint-3 folder and on a platform that can install pandas. Previously, the shell file was able to be run with bash on the IBM server. However,  recent testing revealed that the visualization portion of the bash cannot run because of issues with installing pandas on Python.

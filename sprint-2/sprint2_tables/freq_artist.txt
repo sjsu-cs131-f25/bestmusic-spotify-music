@@ -1,0 +1,820 @@
+      5 Nobuo Uematsu
+      5 Hans Zimmer
+      4 Randy Newman
+      4 Kimbo Children's Music
+      4 Ivy Queen
+      4 for KING & COUNTRY
+      4 Dorothée
+      3 Tinashe
+      3 The National
+      3 Rodney Carrington
+      3 Kacey Musgraves
+      3 John Legend
+      3 Howard Shore
+      3 Giuseppe Verdi
+      3 G-Eazy
+      3 Daft Punk
+      3 Christopher Titus
+      3 Blake Shelton
+      3 Aquilo
+      3 Alan Menken
+      2 Zion & Lennox
+      2 Yuki Hayashi
+      2 Wings
+      2 Wilco
+      2 WALK THE MOON
+      2 Tyler Bates
+      2 Turnover
+      2 Tsunami Bomb
+      2 T-Pain
+      2 Timeflies
+      2 The White Stripes
+      2 The Strokes
+      2 The Bouncing Souls
+      2 The Black Keys
+      2 Susan Egan
+      2 Star Cast
+      2 Solomon Burke
+      2 SiR
+      2 Ryuichi Sakamoto
+      2 Robert Glasper Experiment
+      2 Ray Charles
+      2 Rascal Flatts
+      2 Radiohead
+      2 Queens of the Stone Age
+      2 Queen
+      2 Preschool Kids
+      2 Plan B
+      2 Phyllis Dillon
+      2 Philip Glass
+      2 Ott
+      2 Nick Hakim
+      2 NF
+      2 Moods
+      2 Michael Giacchino
+      2 Masakatsu Takagi
+      2 Madness
+      2 Lorne Balfe
+      2 Logic
+      2 Liz Callaway
+      2 Lil Wayne
+      2 Kyle Dixon & Michael Stein
+      2 Katt Williams
+      2 Kanye West
+      2 John Williams
+      2 John Pinette
+      2 Joe
+      2 Jhene Aiko
+      2 Jamie Foxx
+      2 Jack White
+      2 Hikaru Utada
+      2 Henri Salvador
+      2 Heitor Pereira
+      2 Gorillaz
+      2 Georges Bizet
+      2 Frank Churchill
+      2 Fishbone
+      2 Fall Out Boy
+      2 Ella Fitzgerald
+      2 Easy Star All-Stars
+      2 Devendra Banhart
+      2 Christy Nockels
+      2 Chorus
+      2 Cautious Clay
+      2 Caravan Palace
+      2 Bonobo
+      2 Beyoncé
+      2 ASIAN KUNG-FU GENERATION
+      2 Arizona Zervas
+      2 Arcangel
+      2 Anti-Flag
+      2 Amy Winehouse
+      2 Alabama
+      1 μ's
+      1 Z.Z. Hill
+      1 Zomboy
+      1 Zendaya
+      1 ZAYN
+      1 Yung Bleu
+      1 Yumi Matsutoya
+      1 Yuji Ohno & Lupintic Five
+      1 Young Thug
+      1 Young the Giant
+      1 Yo Trane
+      1 Ying Yang Twins
+      1 YG
+      1 Yes
+      1 Yellow Claw
+      1 Yeek
+      1 Yann Tiersen
+      1 Yaima
+      1 Xavier Omär
+      1 Wyatt Cenac
+      1 Wisin & Yandel
+      1 William Walton
+      1 Whitney Cummings
+      1 Whitney
+      1 What So Not
+      1 Weval
+      1 Wendell B
+      1 Weezer
+      1 Way Out West
+      1 Waxahatchee
+      1 Waterparks
+      1 Waka Flocka Flame
+      1 WagakkiBand
+      1 Vybz Kartel
+      1 Voodoo Glow Skulls
+      1 Volbeat
+      1 Voctave
+      1 Viernes 13
+      1 Verzache
+      1 Vampire Weekend
+      1 Usher
+      1 Upchurch
+      1 Uncle Kracker
+      1 Tyler Childers
+      1 Tyga
+      1 Ty Dolla $ign
+      1 Two Door Cinema Club
+      1 Twenty One Pilots
+      1 TV On The Radio
+      1 TroyBoi
+      1 Train
+      1 Toru Takemitsu
+      1 Tori Kelly
+      1 Tom Papa
+      1 Tom Cotter
+      1 Tito Rojas
+      1 "Tito ""El Bambino"""
+      1 Tim Timebomb
+      1 Thousand Foot Krutch
+      1 Thom Yorke
+      1 Thomas Newman
+      1 THEY.
+      1 The Who
+      1 The Weeknd
+      1 The War On Drugs
+      1 The Temptations
+      1 The Strumbellas
+      1 The Staves
+      1 The Spinners
+      1 The Skints
+      1 The Shouting Matches
+      1 The Shins
+      1 The Score
+      1 The Replacements
+      1 The Raconteurs
+      1 The Prodigy
+      1 The Postal Service
+      1 The Penguins
+      1 The Neighbourhood
+      1 The Maytals
+      1 The Manhattans
+      1 The Littlest Man Band
+      1 The King's Singers
+      1 The Irish Rovers
+      1 The Internet
+      1 The Hit Crew Kids
+      1 The Hippos
+      1 The Hip Abduction
+      1 The Game
+      1 The Expendables
+      1 The Doobie Brothers
+      1 The Delta Saints
+      1 The Contours
+      1 The Click Five
+      1 The City of Prague Philharmonic Orchestra
+      1 The Cat Empire
+      1 The California Honeydrops
+      1 The Byrds
+      1 The Black Ghosts
+      1 The Black Eyed Peas
+      1 The Beatles
+      1 The Band
+      1 The Avett Brothers
+      1 The Arrogant Sons Of Bitches
+      1 The Aquabats!
+      1 The Airborne Toxic Event
+      1 The Aggrolites
+      1 Tenth Avenue North
+      1 Tempo
+      1 Teena Marie
+      1 Teenage Bottlerocket
+      1 Tee Grizzley
+      1 Ted Hawkins
+      1 Tedeschi Trucks Band
+      1 Taska Black
+      1 Tank
+      1 System Of A Down
+      1 Swingrowers
+      1 Sundara Karma
+      1 Sum 41
+      1 Sugar Kane Music
+      1 Sublime
+      1 Stwo
+      1 Strung Out
+      1 St Germain
+      1 Stevie Ray Vaughan
+      1 SteveSongs
+      1 Steven Price
+      1 Steve Martin
+      1 Steve Lacy
+      1 Steve Byrne
+      1 Stephen Lynch
+      1 Static-X
+      1 Speaker Knockerz
+      1 South Park Mexican
+      1 Soul Majestic
+      1 Soulja Boy
+      1 Sons Of Zion
+      1 Sonny Clark
+      1 Sonata Arctica
+      1 Solange
+      1 SOJA
+      1 Social House
+      1 SOAK
+      1 Snails
+      1 Smooth Jazz New York
+      1 Smith Westerns
+      1 Smino
+      1 Sly & The Family Stone
+      1 Slash
+      1 Siouxsie and the Banshees
+      1 SILENT SIREN
+      1 Sigur Rós
+      1 Sia
+      1 Shuggie Otis
+      1 SHINee
+      1 Shawn Mendes
+      1 Shane & Shane
+      1 Shakuhachi Sakano
+      1 Shaggy
+      1 SG Lewis
+      1 Sevyn Streeter
+      1 SEU Worship
+      1 Selena Gomez
+      1 Seether
+      1 Screaming Trees
+      1 Scorpions
+      1 Saverio Mercadante
+      1 Sarah Jarosz
+      1 Sammie
+      1 Samm Henshaw
+      1 Sam Kinison
+      1 Salmonella Dub
+      1 Salif Keita
+      1 Sabrina Claudio
+      1 Saba
+      1 Rx Bandits
+      1 Russell Dickerson
+      1 Russ
+      1 Run–D.M.C.
+      1 Ruggero Leoncavallo
+      1 Ruel
+      1 Rozen
+      1 Roy Orbison
+      1 Roo Panes
+      1 ROLE MODEL
+      1 Rodrigo y Gabriela
+      1 Rob Simonsen
+      1 Robin Thicke
+      1 R.LUM.R
+      1 RL Grime
+      1 Rihanna
+      1 Reykon
+      1 Renée Fleming
+      1 R.E.M.
+      1 Relient K
+      1 Red Hot Chili Peppers
+      1 Raveena
+      1 Randy Rogers Band
+      1 Randy Edelman
+      1 Random Rab
+      1 Ralfi Pagan
+      1 Raffi
+      1 RADWIMPS
+      1 Rachel Feinstein
+      1 Quincy Jones
+      1 Puddle Of Mudd
+      1 Prince Royce
+      1 Portishead
+      1 Porno Graffitti
+      1 Popcaan
+      1 Point Point
+      1 Pnau
+      1 PLVTINUM
+      1 Planetshakers
+      1 Pistol Annies
+      1 Phora
+      1 Phoebe Bridgers
+      1 Phish
+      1 Phillip Phillips
+      1 Phil Harris
+      1 Pet Shop Boys
+      1 Peter Tosh
+      1 Peter Hunnigale
+      1 Pepper
+      1 Penguin Cafe Orchestra
+      1 PARTYNEXTDOOR
+      1 Parov Stelar
+      1 Park Hyo Shin
+      1 Papi Wilo
+      1 Pantera
+      1 Otis Redding
+      1 Old Crow Medicine Show
+      1 Okey Dokey
+      1 Oh Wonder
+      1 ODIE
+      1 Ocean Alley
+      1 Nuwamba
+      1 Nursery Rhymes and Kids Songs
+      1 Nubya Garcia
+      1 No Use For A Name
+      1 Noriyuki Makihara
+      1 Norah Jones
+      1 Noir Désir
+      1 NOFX
+      1 Nirvana
+      1 Nina Simone
+      1 Nightmares On Wax
+      1 Nico & Vinz
+      1 Nicolas Jaar
+      1 Nick Jonas
+      1 NGHTMRE
+      1 New Order
+      1 New Medicine
+      1 Neutral Milk Hotel
+      1 Nena
+      1 Ñejo
+      1 Nat King Cole Trio
+      1 Natasha Mosley
+      1 Nao
+      1 Mychael Danna
+      1 MxPx
+      1 Mustard
+      1 Music For Little People Choir
+      1 Mulherin
+      1 Mudvayne
+      1 Mr. Vegas
+      1 Mrs. GREEN APPLE
+      1 Motohiro Hata
+      1 Mos Def
+      1 Monty Python
+      1 Monica
+      1 Moneybagg Yo
+      1 Moksi
+      1 MiyaGi
+      1 Mitchell Tenpenny
+      1 Mike Ryan
+      1 Mike Posner
+      1 Miguel
+      1 Midland
+      1 Mick Jenkins
+      1 Michel Roux
+      1 Michelle Branch
+      1 Merl Saunders
+      1 Mereba
+      1 MercyMe
+      1 Menor Menor
+      1 Meghan Trainor
+      1 Mega
+      1 Me First and the Gimme Gimmes
+      1 Max Richter
+      1 Max Pizzolante
+      1 Maurice Jarre
+      1 Matt Maher
+      1 Matt and Kim
+      1 Mat Kearney
+      1 Matisyahu
+      1 Matchbox Twenty
+      1 Massive Attack
+      1 Masaharu Fukuyama
+      1 Marvin Sease
+      1 Marvin Hamlisch
+      1 Martin Jensen
+      1 Marko Silva
+      1 Mark Mancina
+      1 Marilyn Horne
+      1 Marc Maron
+      1 Manuel de Falla
+      1 Majid Jordan
+      1 Mad Season
+      1 Madonna
+      1 Madeleine Peyroux
+      1 MadeinTYO
+      1 Mac Miller
+      1 Luis Bacalov
+      1 Lucius
+      1 Los Caligaris
+      1 Los Auténticos Decadentes
+      1 Los 4
+      1 Lorie
+      1 Lord Kossity
+      1 Lord Huron
+      1 Lookas
+      1 Loggins & Messina
+      1 Loco
+      1 LMFAO
+      1 Little John
+      1 Lionel Hampton
+      1 Lil Uzi Vert
+      1 Lil Jon
+      1 Lil Baby
+      1 Lianne La Havas
+      1 Lewis Black
+      1 Less Than Jake
+      1 Léovanie Raud
+      1 Leon Russell
+      1 Leon Bridges
+      1 Léo Delibes
+      1 Lemon Jelly
+      1 Lemongrass
+      1 Leigh Harline
+      1 Leftöver Crack
+      1 Leeland
+      1 Lee Brice
+      1 Le Club des Juniors
+      1 Lea Salonga
+      1 Larkin Poe
+      1 Langhorne Slim
+      1 Lana Del Rey
+      1 Lake Street Dive
+      1 Ladysmith Black Mambazo
+      1 Ky-Mani Marley
+      1 Kyle Kinane
+      1 Kyle Dion
+      1 Krovostok
+      1 Kota the Friend
+      1 Koryn Hawthorne
+      1 Kora (CA)
+      1 Kllo
+      1 Kiroro
+      1 Kings of Leon
+      1 King Krule
+      1 King Geedorah
+      1 Kim Walker-Smith
+      1 Kim Petras
+      1 Kid Trunks
+      1 Kid Rock
+      1 Kid Ink
+      1 Keyshia Cole
+      1 Kevin Roldan
+      1 Kevin Penkin
+      1 Kensuke Ushio
+      1 Ken Page
+      1 Kenny Chesney
+      1 Ken Boothe
+      1 Kelly Rowland
+      1 Kelley Hunt
+      1 Keith Urban
+      1 Kehlani
+      1 KAYTRANADA
+      1 Katy Perry
+      1 Katherine Jenkins
+      1 Karunesh
+      1 Kari Jobe
+      1 Kansas
+      1 Kane Brown
+      1 Justin Moore
+      1 Justin Hurwitz
+      1 Justine Skye
+      1 Justin Bieber
+      1 Julianna Barwick
+      1 Julian Lage
+      1 Jukebox The Ghost
+      1 Juice WRLD
+      1 Juice Music
+      1 Judy Kuhn
+      1 Josimar y Su Yambú
+      1 Josh Turner
+      1 Josh Jacobson
+      1 Josh Heinrichs
+      1 Jordan Rakei
+      1 Jordan Feliz
+      1 Jonny Greenwood
+      1 Jon Langston
+      1 John Mayer
+      1 John Lunn
+      1 John Barry
+      1 Johan Söderqvist
+      1 Joe Zimmerman
+      1 Joey Bada$$
+      1 Joe Walsh
+      1 Joe Hisaishi
+      1 Joanne Brackeen
+      1 Jillian Jacqueline
+      1 Jess Glynne
+      1 Jerrod Niemann
+      1 Jeremy Soule
+      1 Jeremy Camp
+      1 Jeremias
+      1 Jelly Roll
+      1 Jeff Foxworthy
+      1 Jeff Beck
+      1 Jean Claude Corbel
+      1 J Balvin
+      1 Jason Aldean
+      1 Ja Rule
+      1 Jane's Addiction
+      1 Janelle Monáe
+      1 Jamsha
+      1 Jamiroquai
+      1 Jamie xx
+      1 Jamey Johnson
+      1 James Carr
+      1 Jamby el Favo
+      1 J Alvarez
+      1 Jacob Collier
+      1 Jack Stauber
+      1 Jack & Jack
+      1 Jackie Mendoza
+      1 Jackie Lee
+      1 Jackie Kashian
+      1 ITOWOKASHI
+      1 Iron & Wine
+      1 Inon Zur
+      1 Influence Music
+      1 In Flames
+      1 Idina Menzel
+      1 Huncho Jack
+      1 Hooverphonic
+      1 Hoodie Allen
+      1 Hitorie
+      1 Hinder
+      1 Hillsong Worship
+      1 Her's
+      1 Herobust
+      1 Herman's Hermits
+      1 Henrik Freischlader
+      1 Hayley Kiyoko
+      1 Hap Palmer
+      1 Hans Theessink
+      1 Hamsa Lila
+      1 Halsey
+      1 Hal Ketchum
+      1 Hailu Mergia
+      1 Guttermouth
+      1 Guts
+      1 Gustavo Santaolalla
+      1 Gunna
+      1 Gucci Mane
+      1 Groove Collective
+      1 Grizzly Bear
+      1 Greg Giraldo
+      1 Grant Green
+      1 grandson
+      1 Grace Potter & The Nocturnals
+      1 Goth Babe
+      1 Gordon Lightfoot
+      1 Good Charlotte
+      1 Goldfinger
+      1 Glutamine
+      1 Glass Animals
+      1 Girlpool
+      1 Gioachino Rossini
+      1 G Herbo
+      1 GFRIEND
+      1 Getter
+      1 Gerard Way
+      1 George Strait
+      1 Georges Delerue
+      1 Gentleman
+      1 Generationals
+      1 GASHI
+      1 Gary Puckett & The Union Gap
+      1 Gary Moore
+      1 Gary Clark Jr.
+      1 Garnett Silk
+      1 Gang Of Four
+      1 Gallant
+      1 Gabrielle Aplin
+      1 Gabriela Penka
+      1 Gabe Bondoc
+      1 Future
+      1 Fun Lovin' Criminals
+      1 Funkadelic
+      1 Fuego
+      1 Fruko Y Sus Tesos
+      1 Freedom Fry
+      1 Freddie Gibbs
+      1 Frankie Valli & The Four Seasons
+      1 Frank Caliendo
+      1 Franc Moody
+      1 Francis Lalanne
+      1 Francesco Cilea
+      1 For All Seasons
+      1 FLOW
+      1 Florence + The Machine
+      1 Five Iron Frenzy
+      1 Five Finger Death Punch
+      1 Fitz and The Tantrums
+      1 Firewind
+      1 Fess Parker
+      1 Felipe Peláez
+      1 Feid
+      1 Federico Mompou
+      1 Fat Nick
+      1 Fatboy Slim
+      1 Falcom Sound Team jdk
+      1 Faces
+      1 Excision
+      1 Etta James
+      1 E^ST
+      1 Erykah Badu
+      1 Eric Lindell
+      1 Eric Church
+      1 Eric Bellinger
+      1 Enzo Garcia
+      1 En Vogue
+      1 Enur
+      1 Ennio Morricone
+      1 Emmanuel Moire
+      1 Eminem
+      1 Elvenking
+      1 Eluvium
+      1 Ella Vos
+      1 Elephante
+      1 Electric Guest
+      1 Eddie Palmieri
+      1 Eddie Money
+      1 Eddie Griffin
+      1 Dylan Scott
+      1 Dwin
+      1 Duke Ellington
+      1 Dr. John
+      1 Dreezy
+      1 Dread Mar I
+      1 Dr. Dog
+      1 Doug Stanhope
+      1 Doug Benson
+      1 Don Gibson
+      1 Domo Genesis
+      1 DJ Khaled
+      1 Dirty Heads
+      1 Dirt Monkey
+      1 Dion
+      1 Desmond Dekker
+      1 Descendents
+      1 Derrick Morgan
+      1 Derez De’Shon
+      1 Derek & The Dominos
+      1 Deorro
+      1 Deodato
+      1 Demi Lovato
+      1 Declan McKenna
+      1 Declan J Donovan
+      1 Dead Kennedys
+      1 David Sanborn
+      1 David Brinston
+      1 Dave East
+      1 Dave Brubeck
+      1 Dave Attell
+      1 DaniLeigh
+      1 Daniel Pemberton
+      1 Danielle Bradbery
+      1 Danger Doom
+      1 D'Angelo
+      1 Damian Marley
+      1 Dagny
+      1 Current Swell
+      1 Curren$y
+      1 Cornelio Vega y su Dinastia
+      1 Corinne Bailey Rae
+      1 Cool Company
+      1 Conor Maynard
+      1 Computer Says No
+      1 Coleman Hawkins
+      1 Cock Sparrer
+      1 CNCO
+      1 Clint Black
+      1 City Girls
+      1 Ciara
+      1 Chris Tomlin
+      1 Christina Aguilera
+      1 Christian Leave
+      1 Chris McClarney
+      1 Chrisette Michele
+      1 Chingy
+      1 Children Songs Company
+      1 Cherry Poppin' Daddies
+      1 Chase Atlantic
+      1 Charlton Heston
+      1 Charli XCX
+      1 Charlie Parker
+      1 Charlie Burg
+      1 Cavetown
+      1 Catch 22
+      1 Castlecomer
+      1 Casting Crowns
+      1 Cassadee Pope
+      1 Car Seat Headrest
+      1 Carla Thomas
+      1 Cardi B
+      1 Canyon City
+      1 Cam
+      1 Call Me Karizma
+      1 Calle 13
+      1 Cage The Elephant
+      1 Bulletboys
+      1 Buku
+      1 Buju Banton
+      1 Buena Vista Social Club
+      1 BTS
+      1 Bryant Myers
+      1 Brujeria
+      1 Bruce Rowland
+      1 Bruce Faulconer
+      1 Bro Safari
+      1 Bronze Radio Return
+      1 BROCKHAMPTON
+      1 Brian Posehn
+      1 Brian McKnight
+      1 Brandi Carlile
+      1 Brad Paisley
+      1 BRADIO
+      1 Boyz N Da Hood
+      1 Bowling For Soup
+      1 Born Without Bones
+      1 Boogie T
+      1 Bombino
+      1 Bob Marley & The Wailers
+      1 Blues Saraceno
+      1 Blood Orange
+      1 Bloodhound Gang
+      1 Blondie
+      1 Blind Guardian
+      1 BLACKPINK
+      1 Billy Currington
+      1 Billie Holiday
+      1 Bill Hicks
+      1 Bill Engvall
+      1 Big Wild
+      1 Big Pun
+      1 Big Jay Oakerson
+      1 Big D and the Kids Table
+      1 Beth Hart
+      1 Ben L'Oncle Soul
+      1 Ben Howard
+      1 Beirut
+      1 Bear McCreary
+      1 Beach House
+      1 B-complex
+      1 bbno$
+      1 Bassnectar
+      1 Baron Vaughn
+      1 Barns Courtney
+      1 BANKS
+      1 Bad Suns
+      1 Bad Meets Evil
+      1 Badfinger
+      1 Baby Rasta & Gringo
+      1 B0nds
+      1 ayaka
+      1 Axian
+      1 Axel Flovent
+      1 Austin Wintory
+      1 Audrey Assad
+      1 Audra McDonald
+      1 A Tribe Called Quest
+      1 Atlanta Rhythm Section
+      1 Asiahn
+      1 artist_name
+      1 Artie Lange
+      1 Arise Roots
+      1 Arctic Monkeys
+      1 Apocalyptica
+      1 Antonio Vivaldi
+      1 Anjelah Johnson
+      1 Anika Noni Rose
+      1 Angel Olsen
+      1 Andy Woodhull
+      1 Andy Shauf
+      1 Andrew Norelli
+      1 Andrew Dice Clay
+      1 Amigo the Devil
+      1 amazarashi
+      1 Amanda Lindsey Cook
+      1 alva noto
+      1 Alonzo Bodden
+      1 Al Madrigal
+      1 Alice In Chains
+      1 Alice Coltrane
+      1 Alexis y Fido
+      1 Alexandre Desplat
+      1 Alessia Cara
+      1 Alan Saldaña
+      1 Alabama Shakes
+      1 Ahmad Jamal Trio
+      1 Aer
+      1 Adam Sandler
+      1 Ace Hood
+      1 Abel Korzeniowski
+      1 Aaron Watson
+      1 A$AP Mob
+      1 88GLAM
+      1 36
+      1 311
+      1 24hrs
+      1 21 Savage
+      1 11:11
