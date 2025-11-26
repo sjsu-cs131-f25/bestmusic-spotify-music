@@ -72,14 +72,19 @@ df = df.dropDuplicates(["track_id"])
 print("Rows after cleaning:", df.count())
 df.show(5, truncate=False)
 
-genre_statistics = df.groupBy("genre", "artist_name") \
+genre_artist_df = df.select("genre", "artist_name", "track_name", "popularity",
+  "tempo", "danceability", "duration_ms")
+key_df = df.select("track_name", "key", "mode", "popularity", "loudness",
+  "energy")
+
+genre_statistics = genre_artist_df.groupBy("genre", "artist_name") \
   .agg(F.count("track_name").alias("number_of_tracks"),
        F.round(F.avg("popularity"), 3).alias("avg_popularity"),
        F.round(F.avg("tempo"), 3).alias("avg_bpm")) \
   .orderBy(F.desc("number_of_tracks"), F.desc("avg_popularity"))
 genre_statistics.show()
 
-artists_by_genre = df.groupBy("artist_name","genre") \
+artists_by_genre = genre_artist_df.groupBy("artist_name","genre") \
   .agg(F.count("track_name").alias("number_of_tracks"),
        F.round(F.avg("popularity"), 3).alias("avg_popularity"),
        F.round(F.avg("danceability"), 3).alias("avg_danceability"), \
@@ -88,7 +93,7 @@ artists_by_genre = df.groupBy("artist_name","genre") \
 artists_by_genre.show()
 
 
-most_popular_signatures = df.groupBy("key", "mode") \
+most_popular_signatures = key_df.groupBy("key", "mode") \
   .agg(F.count("track_name").alias("number_of_tracks"),
        F.round(F.avg("popularity"), 3).alias("avg_popularity"),
        F.round(F.avg("loudness"), 3).alias("avg_loudness"),
@@ -98,8 +103,11 @@ most_popular_signatures.show()
 
 """## New Aggregations"""
 
+reduced_df = df.select("artist_name", "time_signature", "track_name",
+  "popularity", "energy", "tempo")
+
 # Artist grouped by time signatures
-artist_time_signatures = (df.groupBy("artist_name", "time_signature")
+artist_time_signatures = (reduced_df.groupBy("artist_name", "time_signature")
   .agg(F.count("track_name").alias("number_of_tracks"),
        F.round(F.avg("popularity"), 3).alias("avg_popularity"),
        F.round(F.avg("energy"), 3).alias("energy"),
@@ -151,16 +159,19 @@ t0 = time.time()
 (genre_statistics
   .write.mode("overwrite")
   .partitionBy("genre")
+  .option("header", True)
   .csv(f"{OUT_PATH}/genre_stats"))
 
-(artists_by_genre
+(energy_buckets
   .write.mode("overwrite")
-  .partitionBy("artist_name")
-  .csv(f"{OUT_PATH}/artist_stats"))
+  .partitionBy("energy_buckets")
+  .option("header", True)
+  .csv(f"{OUT_PATH}/energy_buckets"))
 
 (most_popular_signatures
   .write.mode("overwrite")
   .partitionBy("key")
+  .option("header", True)
   .csv(f"{OUT_PATH}/key_signatures"))
 tdelta = time.time() - t0
 print(f"Time for non-repartioned writes: {tdelta:.3f}s")
@@ -170,16 +181,19 @@ t0 = time.time()
 (genre_statistics.repartition(8, "genre")
   .write.mode("overwrite")
   .partitionBy("genre")
+  .option("header", True)
   .csv(f"{OUT_PATH}/genre_stats"))
 
-(artists_by_genre.repartition(8, "artist_name")
+(energy_buckets.repartition(8, "artist_name")
   .write.mode("overwrite")
-  .partitionBy("artist_name")
-  .csv(f"{OUT_PATH}/artist_stats"))
+  .partitionBy("energy_buckets")
+  .option("header", True)
+  .csv(f"{OUT_PATH}/energy_buckets"))
 
 (most_popular_signatures.repartition(8, "key")
   .write.mode("overwrite")
   .partitionBy("key")
+  .option("header", True)
   .csv(f"{OUT_PATH}/key_signatures"))
 tdelta = time.time() - t0
 print(f"Time for repartioned writes: {tdelta:.3f}s")
@@ -254,8 +268,8 @@ lr = LogisticRegression(
 lr_model = lr.fit(train)
 lr_pred  = lr_model.transform(test)
 
-lr_model.write().overwrite.save(f"gs://{bucket}/ouput/mlmodel")
-lr_pred.write().overwrite.save(f"gs://{bucket}/ouput/mlpred")
+lr_model.write().overwrite().save(f"gs://{bucket}/out/mlmodel")
+# lr_pred.write().overwrite().save(f"gs://{bucket}/output/mlpred")
 
 evaluator = MulticlassClassificationEvaluator(
     labelCol="label", predictionCol="prediction", metricName="accuracy"
