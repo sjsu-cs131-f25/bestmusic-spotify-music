@@ -15,7 +15,7 @@ https://drive.google.com/drive/folders/1qi4VpOdaePq04Gh0-5vhbWjlWt8GS79L?usp=dri
 # Sprint/Project Assignment 6:
 ## Setup Environment Variables:
 ```
-CODE_URI=projectassignment6.py
+CODE_URI=gs://$BUCKET/code/projectassignment6.py
 REGION=us-west1
 BUCKET=wtbm-spotify
 ```
