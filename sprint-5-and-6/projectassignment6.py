@@ -127,9 +127,13 @@ energy_buckets = (bucketizer.transform(artist_time_signatures)
       .when(F.col("energy_buckets")==1, "medium")
       .when(F.col("energy_buckets")==2, "high")))
 
+popular_energy_counts = (energy_buckets.filter(F.col("avg_popularity").between(50, 100))
+  .groupBy("energy_buckets")
+  .agg(F.count("energy_buckets").alias("count")))
 # We can see that the majority of the songs are rarer in their time signature
 # from a particular artist and fit in our medium to high energy buckets
 energy_buckets.show()
+popular_energy_counts.show()
 
 """## Time Comparisons for Coalescence"""
 
